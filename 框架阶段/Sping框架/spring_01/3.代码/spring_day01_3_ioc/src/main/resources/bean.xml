@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        bean:在spring容器中创建的标签
+        属性 id: 唯一的名称
+        clsss:指定全类名
+        scope:指定是单例模式还是多例模式
+            默认的单例模式
+            属性值：prototype： 多例模式，创建的对象内存地址不同，在使用时创建
+                   singleton:单例模式，创建的对象内存地址相同，在加载时立即创建
+        init-method:初始化的方法，创建的对象时先执行此方法
+        destroy-method:销毁的方法，在对象关闭时执行此方法
+    -->
+    <bean id="userDao" class="com.itheima.dao.impl.UserDaoImpl" scope="singleton" init-method="init" destroy-method="destroy"></bean>
+    <bean id="userService" class="com.itheima.service.impl.UserServiceImpl"></bean>
+
+
+
+    <!--使用静态工厂的方法创建bean对象
+        factory-method : 指定使用静态工厂中的哪一个方法创建对象
+    -->
+
+    <bean id="userDao-factory" class="com.itheima.factory.StaticBeanFactory" factory-method="createUserDao"></bean>
+
+    <!--创建的非静态工厂的类对象-->
+    <bean id="factory-bean" class="com.itheima.factory.NotStaticBeanFactory"></bean>
+    <!--使用非静态工厂提供方法获取bean对象-->
+    <!--
+         factory-bean: 引用非静态工厂对象
+         factory-method： 引用非静态工厂中的方法
+    -->
+    <bean id="userDao-not-static-factory" factory-bean="factory-bean" factory-method="createUserDao"></bean>
+</beans>

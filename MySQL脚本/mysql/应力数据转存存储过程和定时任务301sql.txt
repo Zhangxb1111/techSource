@@ -1,0 +1,31 @@
+#查看当前是否已开启事件调度器
+show variables like 'event_scheduler';
+#要想保证能够执行event事件，就必须保证定时器是开启状态，默认为关闭状态
+set global event_scheduler =1;
+# 选择库
+use qdqg;
+# 如果原来存在该名字的任务计划则先删除
+drop event if exists zhuancun301to301his;
+DROP PROCEDURE IF EXISTS 301_pro;
+#创建存储过程
+delimiter $$
+  CREATE PROCEDURE 301_pro()
+    BEGIN
+      SET @starttime=(SELECT SENDTIME FROM ST_RESULT_1000010301_HIS ORDER BY SENDTIME DESC limit 0,1);
+      set @endtime=(SELECT CONCAT(CURDATE()," 23:59:59"));
+      SELECT @starttime;
+      SELECT @endtime;
+      REPLACE INTO ST_RESULT_1000010301_HIS(ID,EQ_CODE,EQ_NAME,STRESS1,TEMPER1,STRESS2,TEMPER2,STRESS3,TEMPER3,STRESS4,TEMPER4,STRESS5,TEMPER5,STRESS6,TEMPER6,STRESS7,TEMPER7,STRESS8,TEMPER8,STRESS9,TEMPER9,STRESS10,TEMPER10,STRESS11,TEMPER11,STRESS12,TEMPER12,SENDTIME) SELECT ID,EQ_CODE,EQ_NAME,STRESS1,TEMPER1,STRESS2,TEMPER2,STRESS3,TEMPER3,STRESS4,TEMPER4,STRESS5,TEMPER5,STRESS6,TEMPER6,STRESS7,TEMPER7,STRESS8,TEMPER8,STRESS9,TEMPER9,STRESS10,TEMPER10,STRESS11,TEMPER11,STRESS12,TEMPER12,SENDTIME FROM st_result_1000010301 WHERE SENDTIME<=@endtime and SENDTIME>=@starttime;
+      IF ROW_COUNT()>0 THEN
+        DELETE FROM st_result_1000010301 WHERE sendtime<=@endtime and sendtime>=@starttime;
+      END IF;
+    END
+    $$
+ # 每天晚上23:59:59执行
+create event zhuancun301to301his  
+on schedule every 1 MINUTE starts NOW()
+do
+begin
+    CALL 301_pro();
+end
+$$

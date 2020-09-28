@@ -1,0 +1,38 @@
+/*
+SQLyog Ultimate v12.09 (64 bit)
+MySQL - 5.5.40 : Database - day25
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`day25` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+USE `day25`;
+
+/*Table structure for table `cst_customer` */
+
+DROP TABLE IF EXISTS `cst_customer`;
+
+CREATE TABLE `cst_customer` (
+  `cust_id` bigint(32) NOT NULL AUTO_INCREMENT COMMENT '客户编号(主键)',
+  `cust_name` varchar(32) NOT NULL COMMENT '客户名称(公司名称)',
+  `cust_source` varchar(32) DEFAULT NULL COMMENT '客户信息来源',
+  `cust_industry` varchar(32) DEFAULT NULL COMMENT '客户所属行业',
+  `cust_level` varchar(32) DEFAULT NULL COMMENT '客户级别',
+  `cust_phone` varchar(64) DEFAULT NULL COMMENT '固定电话',
+  PRIMARY KEY (`cust_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `cst_customer` */
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;

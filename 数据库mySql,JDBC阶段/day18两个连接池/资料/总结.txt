@@ -1,0 +1,31 @@
+能够描述SQL注入原理和解决方案
+	如果对sql语句的条件进行拼接，可以导致条件恒为true。
+	解决方案：使用PreparedStatement进行预编译
+能够通过PreparedStatement完成CURD代码
+	CURD(增删改查)
+	
+能够理解连接池的原理
+	就是一个容器，里面有很多连接，用的时候直接去里面拿，用完再还回去
+能够使用C3P0连接池
+	配置文件的方式：
+		1. 建立c3p0-confg.xml放在src下
+		2. 编写里面的内容（复制）
+		3. 创建ComboPooledDataSource对象
+		4. 调用getConnection获取连接
+能够使用DRUID连接池
+	1. 建立druid.properties配置文件
+	2. 创建Properties并读取这个配置文件
+	3. 使用Druid连接池工厂类的方法获取一个连接池
+	4. 调用连接池的getConnection获取连接
+能够编写连接池工具类
+	DruidUtils
+掌握JdbcTemplate实现增删改
+	update()
+掌握JdbcTemplate实现查询
+	query()..
+	queryForObject9)...
+
+重点：
+	JdbcTemplate 增删改查
+	Druid连接池
+	PreparedStatement

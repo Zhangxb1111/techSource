@@ -1,0 +1,20 @@
+虚拟机网卡设置：
+cd /etc/sysconfig/network-scripts/
+vi ifcfg-eth1
+
+GATEWAY=192.168.56.1
+DNS1=114.114.114.114
+DNS2=8.8.8.8
+
+ping baidu.com（ping外网）
+
+修改Linux的yum源：
+新的yum源
+curl -o /etc/yum.repos.d/CentOS-Base.repo http://mirrors.163.com/.help/CentOS7-Base-163.repo
+
+生成缓存
+yum makecache
+
+yum install -y wget
+
+yum install -y unzip

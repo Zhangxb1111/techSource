@@ -1,0 +1,9 @@
+方法一
+在虚拟机中
+在doc命令中进入C:\oracle\product\10.2.0\db_1\BIN 目录中
+执行 lsnrctl start
+
+方法二
+可能认不到实例名
+在cmd下运行
+set oracle_sid=orcl

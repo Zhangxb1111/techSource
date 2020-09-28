@@ -1,0 +1,46 @@
+能够理解数据库的概念
+	存放数据的仓库
+能够安装MySQL数据库
+能够启动,关闭及登录MySQL
+	启动：
+		net start mysql
+	关闭：
+		net stop mysql
+	登录
+		明文：
+			mysql -u用户名 -p密码
+		密文：
+			mysql -u用户名 -p 回车 然后输入密码
+能够使用SQL语句操作数据库
+	创建
+		create database 数据库名;
+	查看有哪些数据
+		show databases;
+	使用数据库
+		use 数据库名;
+能够使用SQL语句操作表结构
+	查询有哪些表
+	show tables;
+	查询表结构
+	desc 表名;
+能够使用SQL语句进行数据的添加修改和删除的操作
+	非常重要（必须写熟）
+	添加 insert
+	insert into 表名 (列1,列2, 列3) values (值1,值2,值3);
+	
+	修改 update
+	update 表名 set  列=值 where 条件;
+	
+	删除 delete
+	delete from 表名 where 条件;
+	
+	
+能够使用SQL语句添加约束
+	主键 primary key： 不能为null且唯一
+	自增长 auto_increment： 可以自动维护该列的值
+	非空 not null： 保证buweinull
+	唯一 unique： 保证唯一
+
+重点：
+	insert update delete 
+	

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.AccountDao">
+
+
+    <!--<resultMap id="accountList" type="Account">
+        <id column="id" property="id"></id>
+        <result column="money" property="money"></result>
+        <result column="_id" property="user.id"></result>
+         注入到user属性的username属性中
+        <result column="username" property="user.username"></result>
+        <result column="address" property="user.address"></result>
+        <result column="birthday" property="user.birthday"></result>
+        <result column="sex" property="user.sex"></result>
+    </resultMap>-->
+
+    <resultMap id="accountList" type="Account">
+        <id column="id" property="id"></id>
+        <result column="money" property="money"></result>
+        <association property="user" javaType="user">
+            <id column="_id" property="id"></id>
+            <result column="username" property="username"></result>
+            <result column="address" property="address"></result>
+            <result column="birthday" property="birthday"></result>
+            <result column="sex" property="sex"></result>
+        </association>
+    </resultMap>
+
+
+    <select id="findAll" resultMap="accountList">
+        select * from account a left join user u on a.uid = u._id
+    </select>
+    <!-- 一对一映射：AccountUser-->
+    <resultMap id="accounts" type="AccountUser">
+        <!-- id 数据库中查询的列名   property:对应pojo对象中属性名-->
+        <id column="id" property="accountId"></id>
+        <result column="money" property="money"></result>
+        <result column="_id" property="id"></result>
+        <result column="username" property="username"></result>
+        <result column="address" property="address"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="sex" property="sex"></result>
+    </resultMap>
+    
+    <select id="findAccountUser" resultMap="accounts">
+         select * from account a left join user u on a.uid = u._id
+    </select>
+
+
+
+</mapper>

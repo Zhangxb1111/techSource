@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--这里是注释-->
+<apples>
+    <apple id="a001" name="富士">
+        今天上了一个数学课，教了比较的一些运算，比如 3&lt;5  比如5&gt;3  &quot;  &apos; &amp;
+    </apple>
+    <person>
+        <![CDATA[
+            今天上了一个数学课，教了比较的一些运算，比如 3<5  比如5>3  "aaa" 'aa'  &  &
+        ]]>
+    </person>
+</apples>

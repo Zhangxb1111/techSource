@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.UserDao">
+    <!-- sql片段
+        提取文档中重复使用sql语句
+        include标签引用sql片段 ,
+             属性：refid: 关联id ，关联sql片段中的id属性值
+    -->
+    <sql id="select_user" >
+        select * from user
+    </sql>
+
+    <delete id="deleteByIds" >
+        delete from user WHERE
+        <foreach collection="list" item="j" open="_id in(" separator="," close=")">
+            #{j}
+        </foreach>
+    </delete>
+
+    <select id="findByIds" resultMap="users">
+        <include refid="select_user"></include>
+        where
+        <!--
+            foreach :循环标签
+            collection： 循环的是集合(list)或者是数组(array)
+            item:循环的每一个变量
+            open: 开始的字符串
+            separator: 分隔符
+            close:结束的符号
+        -->
+        <foreach collection="array" item="id" open="_id in ("  separator="," close=")">
+            #{id}
+        </foreach>
+    </select>
+
+
+    <resultMap id="users" type="user">
+        <id column="_id" property="id"></id>
+    </resultMap>
+    <select id="findAll" resultMap="users">
+        select * from user
+    </select>
+
+    <insert id="save" parameterType="user">
+        insert into user values(null ,#{username},#{address},#{birthday},#{sex})
+    </insert>
+
+    <!--if语句-->
+    <select id="findByCondition1" parameterType="user" resultMap="users">
+        select * from user where 1=1
+        <!--判断条件是否为空-->
+        <if test="username != null">
+           and username like "%"#{username}"%"
+        </if>
+        <if test="sex != null">
+           and sex = #{sex}
+        </if>
+    </select>
+    <!-- where 语句-->
+    <select id="findByCondition" parameterType="user" resultMap="users">
+        <include refid="select_user"></include>
+        <!--where 标签可以自动添加where标签，自动处理and问题，建议条件都加上and -->
+        <where>
+            <if test="username != null">
+                and username like "%"#{username}"%"
+            </if>
+            <if test="sex != null">
+                and sex = #{sex}
+            </if>
+        </where>
+    </select>
+</mapper>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--引入dtd约束  可以根据提示将一个符合规范的xml结构写出来就可以了-->
+<!DOCTYPE beans SYSTEM "D:\shun63\xml\dtd\bean.dtd">
+<beans>
+    <bean id="" className="">
+        <property name="" value=""></property>
+    </bean>
+    <import resource=""></import>
+</beans>

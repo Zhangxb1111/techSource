@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.AccountDao">
+
+    <!--开启 本配置文件的二级缓存-->
+    <cache/>
+
+    <resultMap id="accounts" type="account">
+        <id column="id" property="id"></id>
+        <result column="money" property="money"></result>
+        <!--
+            property: 对象中的属性名
+            javaType:对象的类型
+            select : 查询的方法的mapperId  全类名 + 方法
+            fetchType: 提取方式 ,lazy：延迟加载（懒加载）,什么时候使用什么时候加载 , eager ：立即加载(默认的)
+        -->
+        <association property="user" javaType="com.itheima.domain.User"
+                     column="uid" fetchType="lazy" select="com.itheima.dao.UserDao.findById"></association>
+    </resultMap>
+    <!-- useCache="false" 不使用二级缓存-->
+    <select id="findAll" resultMap="accounts" useCache="false">
+        select * from account
+    </select>
+
+    <select id="findById" resultType="account">
+        select * from account where id = #{a}
+    </select>
+</mapper>

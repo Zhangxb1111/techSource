@@ -1,0 +1,5 @@
+<property name="configurationProperties">
+            <props>
+                <prop key="logImpl" >STDOUT_LOGGING</prop>
+            </props>
+</property>

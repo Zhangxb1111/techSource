@@ -1,0 +1,18 @@
+1. 事务的特性
+	原子性: 不可再分割
+	一致性：要么全部完成，要么全部失败，保证事务前后一致性
+	隔离性：
+		读未提交：read uncommited
+			会产生：脏读，不可重复读问题，幻读（虚读）
+		读已提交:read commited
+			解决：脏读
+			会产生：不可重复读问题，幻读（虚读）
+			更新
+		可重复读: repeatable read	
+			解决：不可重复读问题，脏读
+			会产生幻读（虚读）
+			添加
+		串行化（序列化）：serializable , 非常安全，效率最低
+	持久性：提交到数据库中，持久化存储
+2. mysql 数据库：支持四个隔离级别，默认的repeatable read	
+3. Oracle数据库：支持read commited,serializable, read only,默认的隔离级别：read commited

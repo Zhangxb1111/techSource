@@ -1,0 +1,23 @@
+1. oracle第二天
+	视图：虚表，封装了一个复杂的sql查询语句
+		create or replace view 视图名 as DQL 
+  	         屏蔽敏感列
+	        只读的视图：with read only
+	索引：提高检索的效率
+	        创建的语法
+	plsql的基本语法
+	        declare
+		声明语句
+		-- 声明普通的变量： i number default 1;
+		-- 声明引用类型的变量：pname emp.ename%type;
+		-- 声明记录类型的变量：e_row emp%rowtype;
+	        begin
+		过程化语法
+		赋值语句：i := 100;
+			select 列 into 变量 ，只能操作单行
+	        end;
+	游标：集合
+	存储过程：封装了一组sql语句
+	存储函数：必须有且只有一个返回值
+	jdbc:
+	触发器：监听表中的数据是否发生变化

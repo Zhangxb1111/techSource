@@ -1,0 +1,44 @@
+1. 能够使用Junit进行单元测试
+	@Test
+	
+	@Before
+	@After
+	@BeforeClass
+	@AfterClass
+2. 能够通过反射技术获取Class字节码对象
+	1. 对象.getClass()
+	2. 类名.class
+	3. Class.forName(全类名);
+3. 能够通过反射技术获取构造方法对象，并创建对象。
+	clazz.getConstructors
+	clazz.getConstructor 
+	
+	获取到Constructor之后调用newInstance可以创建对象
+4. 能够通过反射获取成员方法对象，并且调用方法。
+	clazz.getMethod...
+	
+	method.invoke
+5. 能够说出注解的作用
+	注解可以完成一些功能，注解是给程序看的。
+	@Override：验证是否是重写的方法
+	
+6. 能够自定义注解和使用注解
+	public @interface 注解名 {
+		属性
+		
+	}
+	属性的类型必须是固定的。
+7. 能够说出常用的元注解及其作用
+	Target：限制注解的使用位置
+	Retention：限制注解的声明周期
+	
+8. 能够解析注解并获取注解中的数据
+	注解的解析
+9. 能够完成注解的MyTest案例
+	注解模拟单元测试
+	
+	
+重点：
+	单元测试。
+	反射 获取Class对象的方式 ，反射创建对象， 反射调用方法。
+	注解 能够使用JDK提供的注解即可。

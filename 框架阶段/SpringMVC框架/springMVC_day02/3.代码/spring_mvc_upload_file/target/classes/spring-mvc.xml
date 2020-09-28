@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+
+    <!--扫描包，创建对象-->
+    <context:component-scan base-package="com.itheima"></context:component-scan>
+
+    <!--内部资源视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--/WEB-INF/forward:show.jsp-->
+        <property name="prefix" value="/WEB-INF/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+    <!-- id的值是固定的-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 设置上传文件的最大尺寸为5MB -->
+        <property name="maxUploadSize"> <value>5242880</value></property>
+    </bean>
+</beans>

@@ -1,0 +1,1230 @@
+11-May-2018 09:08:31.555 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:08:31.561 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:08:31.561 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:08:31.562 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:08:31.562 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:08:31.562 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:08:31.562 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:08:31.563 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:08:31.563 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:08:31.563 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:08:31.563 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:08:31.564 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:08:31.564 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:08:31.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:08:31.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:08:31.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:08:31.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:08:31.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:08:31.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:08:31.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:08:31.573 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:08:31.576 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:08:31.576 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:08:31.577 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:08:32.568 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:08:32.647 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:08:32.932 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:08:32.970 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:08:32.973 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:08:32.973 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2465 ms
+11-May-2018 09:08:33.117 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:08:33.118 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:08:33.160 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:08:34.038 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [198] milliseconds.
+11-May-2018 09:08:34.073 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [913] ms
+11-May-2018 09:08:34.074 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:08:36.145 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [2,071] ms
+11-May-2018 09:08:37.306 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:08:37.410 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [103] ms
+11-May-2018 09:08:37.410 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:08:37.492 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [82] ms
+11-May-2018 09:08:37.492 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:08:37.537 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [45] ms
+11-May-2018 09:08:37.551 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:08:37.579 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:08:37.586 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 4612 ms
+11-May-2018 09:10:15.248 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:10:15.257 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:10:15.258 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:10:15.258 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:10:15.258 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:10:15.259 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:10:15.259 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:10:15.259 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:10:15.260 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:10:15.260 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:10:15.260 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:10:15.262 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:10:15.263 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:10:15.263 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:10:15.263 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:10:15.264 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:10:15.265 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:10:15.270 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:10:15.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:10:15.275 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:10:15.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:10:15.279 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:10:15.279 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:10:15.281 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:10:16.174 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:10:16.248 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:10:16.548 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:10:16.556 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:10:16.559 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:10:16.560 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2164 ms
+11-May-2018 09:10:16.670 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:10:16.671 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:10:16.691 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:10:17.490 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [213] milliseconds.
+11-May-2018 09:10:18.228 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [1,537] ms
+11-May-2018 09:10:18.229 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:10:18.860 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [631] ms
+11-May-2018 09:10:18.861 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:10:18.918 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [58] ms
+11-May-2018 09:10:18.918 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:10:18.977 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [59] ms
+11-May-2018 09:10:18.979 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:10:19.029 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [49] ms
+11-May-2018 09:10:19.040 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:10:19.068 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:10:19.077 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2515 ms
+11-May-2018 09:10:40.827 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:10:40.832 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:10:40.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:10:40.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:10:40.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:10:40.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:10:40.833 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:10:40.834 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:10:40.834 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:10:40.834 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:10:40.834 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:10:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:10:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:10:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:10:40.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:10:40.836 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:10:40.836 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:10:40.837 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:10:40.838 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:10:40.838 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:10:40.839 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:10:40.839 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:10:40.840 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:10:40.840 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:10:41.801 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:10:41.861 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:10:41.889 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:113)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:996)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+11-May-2018 09:10:41.894 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:10:41.901 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:113)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:996)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+11-May-2018 09:10:41.902 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1903 ms
+11-May-2018 09:10:42.021 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:10:42.022 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:10:42.045 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:10:42.820 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [217] milliseconds.
+11-May-2018 09:10:42.849 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [805] ms
+11-May-2018 09:10:42.850 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:10:43.522 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [671] ms
+11-May-2018 09:10:43.523 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:10:43.600 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [76] ms
+11-May-2018 09:10:43.600 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:10:43.665 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [65] ms
+11-May-2018 09:10:43.666 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:10:43.715 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [49] ms
+11-May-2018 09:10:43.719 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1816 ms
+11-May-2018 09:10:43.735 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: NET_Bind
+	at java.base/java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.base/java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.PlainSocketImpl.bind(PlainSocketImpl.java:174)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:441)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:758)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:704)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+11-May-2018 09:10:43.737 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:10:43.740 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:10:43.741 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-May-2018 09:10:43.793 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:10:43.794 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:10:43.797 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:10:43.801 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:10:50.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:10:50.415 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:10:50.415 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:10:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:10:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:10:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:10:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:10:50.417 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:10:50.418 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:10:50.418 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:10:50.418 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:10:50.419 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:10:50.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:10:50.421 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:10:50.421 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:10:50.422 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:10:50.422 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:10:50.424 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:10:50.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:10:50.432 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:10:50.433 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:10:50.434 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:10:50.434 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:10:50.435 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:10:51.332 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:10:51.431 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:10:51.459 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:113)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:996)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+11-May-2018 09:10:51.464 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:10:51.473 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:113)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:996)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+11-May-2018 09:10:51.476 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1849 ms
+11-May-2018 09:10:51.596 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:10:51.603 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:10:51.648 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:10:52.461 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [228] milliseconds.
+11-May-2018 09:10:53.982 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [2,334] ms
+11-May-2018 09:10:53.983 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:10:54.621 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [638] ms
+11-May-2018 09:10:54.622 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:10:54.684 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [62] ms
+11-May-2018 09:10:54.684 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:10:54.745 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [61] ms
+11-May-2018 09:10:54.747 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:10:54.818 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [71] ms
+11-May-2018 09:10:54.832 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 3352 ms
+11-May-2018 09:10:54.849 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: NET_Bind
+	at java.base/java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.base/java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.PlainSocketImpl.bind(PlainSocketImpl.java:174)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:441)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:758)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:704)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+11-May-2018 09:10:54.850 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:10:54.853 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:10:54.857 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-May-2018 09:10:54.910 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:10:54.913 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:10:54.915 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:10:54.917 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:11:40.212 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:11:40.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:11:40.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:11:40.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:11:40.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:11:40.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:11:40.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:11:40.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:11:40.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:11:40.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:11:40.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:11:40.229 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:11:40.229 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:11:40.229 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:11:40.230 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:11:40.230 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:11:40.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:11:40.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:11:40.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:11:40.233 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:11:40.237 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:11:40.238 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:11:40.238 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:11:40.239 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:11:41.214 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:11:41.288 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:11:41.325 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:113)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:996)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+11-May-2018 09:11:41.331 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:11:41.339 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:113)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:996)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+11-May-2018 09:11:41.342 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2012 ms
+11-May-2018 09:11:41.451 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:11:41.452 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:11:41.469 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:11:42.224 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [210] milliseconds.
+11-May-2018 09:11:42.256 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [787] ms
+11-May-2018 09:11:42.258 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:11:42.972 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [715] ms
+11-May-2018 09:11:42.973 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:11:43.033 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [61] ms
+11-May-2018 09:11:43.034 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:11:43.093 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [59] ms
+11-May-2018 09:11:43.094 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:11:43.134 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [40] ms
+11-May-2018 09:11:43.146 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1798 ms
+11-May-2018 09:11:43.160 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: NET_Bind
+	at java.base/java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.base/java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.PlainSocketImpl.bind(PlainSocketImpl.java:174)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:441)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:758)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:704)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+11-May-2018 09:11:43.162 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:11:43.162 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:11:43.165 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-May-2018 09:11:43.208 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:11:43.209 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:11:43.212 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:11:43.215 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:13:52.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:13:52.199 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:13:52.200 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:13:52.200 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:13:52.200 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:13:52.201 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:13:52.201 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:13:52.201 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:13:52.201 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:13:52.202 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:13:52.202 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:13:52.203 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:13:52.203 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:13:52.204 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:13:52.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:13:52.206 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:13:52.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:13:52.208 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:13:52.212 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:13:52.214 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:13:52.215 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:13:52.216 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:13:52.216 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:13:52.219 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:13:53.081 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:13:53.166 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:13:53.500 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:13:53.515 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:13:53.520 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:13:53.522 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2141 ms
+11-May-2018 09:13:53.619 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:13:53.620 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:13:53.648 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:13:54.487 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [209] milliseconds.
+11-May-2018 09:13:54.526 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [878] ms
+11-May-2018 09:13:54.526 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:13:55.140 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [613] ms
+11-May-2018 09:13:55.140 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:13:55.202 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [61] ms
+11-May-2018 09:13:55.202 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:13:55.273 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [71] ms
+11-May-2018 09:13:55.274 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:13:55.323 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [49] ms
+11-May-2018 09:13:55.331 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:13:55.352 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:13:55.360 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1838 ms
+11-May-2018 09:14:35.516 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:14:35.525 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:14:35.526 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:14:35.527 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:14:35.527 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:14:35.528 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:14:35.528 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:14:35.528 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:14:35.529 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:14:35.530 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:14:35.530 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:14:35.533 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:14:35.535 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:14:35.539 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:14:35.541 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:14:35.544 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:14:35.544 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:14:35.545 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:14:35.546 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:14:35.547 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:14:35.552 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:14:35.556 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:14:35.558 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:14:35.559 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:14:36.565 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:14:36.639 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:14:36.958 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:14:36.969 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:14:36.973 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:14:36.974 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2313 ms
+11-May-2018 09:14:37.086 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:14:37.087 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:14:37.108 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:14:37.826 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [195] milliseconds.
+11-May-2018 09:14:37.858 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [750] ms
+11-May-2018 09:14:37.860 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:14:38.539 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [678] ms
+11-May-2018 09:14:38.539 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:14:38.595 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [56] ms
+11-May-2018 09:14:38.596 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:14:38.651 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [55] ms
+11-May-2018 09:14:38.651 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:14:38.709 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [58] ms
+11-May-2018 09:14:38.717 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:14:38.731 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:14:38.736 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1761 ms
+11-May-2018 09:14:49.672 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-May-2018 09:14:49.673 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:14:49.929 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:14:50.163 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-May-2018 09:14:50.221 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:14:50.227 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:14:50.234 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:14:50.235 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:30:47.236 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:30:47.244 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:30:47.245 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:30:47.245 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:30:47.245 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:30:47.246 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:30:47.246 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:30:47.246 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:30:47.246 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:30:47.246 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:30:47.247 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:30:47.247 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:30:47.248 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:30:47.248 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:30:47.248 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:30:47.249 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:30:47.249 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:30:47.250 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:30:47.250 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:30:47.250 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:30:47.251 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:30:47.253 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:30:47.253 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:30:47.254 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:30:48.185 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:30:48.250 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:30:48.507 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:30:48.517 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:30:48.522 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:30:48.523 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2096 ms
+11-May-2018 09:30:48.612 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:30:48.612 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:30:48.628 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40]
+11-May-2018 09:30:49.447 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [213] milliseconds.
+11-May-2018 09:30:49.501 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40] has finished in [872] ms
+11-May-2018 09:30:49.503 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:30:49.566 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [63] ms
+11-May-2018 09:30:49.567 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:30:50.185 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [617] ms
+11-May-2018 09:30:50.186 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:30:50.247 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [62] ms
+11-May-2018 09:30:50.248 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:30:50.309 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [60] ms
+11-May-2018 09:30:50.309 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:30:50.351 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [41] ms
+11-May-2018 09:30:50.364 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:30:50.390 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:30:50.399 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1874 ms
+11-May-2018 09:32:19.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:32:19.575 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:32:19.575 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:32:19.576 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:32:19.576 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:32:19.576 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:32:19.577 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:32:19.577 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:32:19.577 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:32:19.578 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:32:19.578 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:32:19.579 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:32:19.580 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:32:19.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:32:19.581 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:32:19.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:32:19.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:32:19.583 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:32:19.587 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:32:19.589 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:32:19.589 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:32:19.590 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:32:19.590 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:32:19.591 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:32:20.532 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:32:20.594 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:32:20.864 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:32:20.874 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:32:20.877 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:32:20.878 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2160 ms
+11-May-2018 09:32:20.984 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:32:20.985 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:32:21.001 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40]
+11-May-2018 09:32:21.729 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [190] milliseconds.
+11-May-2018 09:32:21.777 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40] has finished in [775] ms
+11-May-2018 09:32:21.778 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:32:21.822 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [43] ms
+11-May-2018 09:32:21.822 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:32:22.464 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [642] ms
+11-May-2018 09:32:22.464 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:32:22.532 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [68] ms
+11-May-2018 09:32:22.533 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:32:22.586 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [53] ms
+11-May-2018 09:32:22.586 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:32:22.636 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [50] ms
+11-May-2018 09:32:22.643 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:32:22.658 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:32:22.665 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1786 ms
+11-May-2018 09:33:12.929 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:33:12.935 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:33:12.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:33:12.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:33:12.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:33:12.936 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:33:12.937 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:33:12.937 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:33:12.937 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:33:12.938 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:33:12.938 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:33:12.939 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:33:12.940 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:33:12.940 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:33:12.940 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:33:12.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:33:12.944 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:33:12.945 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:33:12.954 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:33:12.955 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:33:12.956 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:33:12.957 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:33:12.958 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:33:12.958 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:33:13.864 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:33:13.936 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:33:14.234 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:33:14.243 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:33:14.247 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:33:14.247 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2136 ms
+11-May-2018 09:33:14.355 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:33:14.356 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:33:14.378 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40]
+11-May-2018 09:33:15.168 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [207] milliseconds.
+11-May-2018 09:33:15.212 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40] has finished in [834] ms
+11-May-2018 09:33:15.213 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:33:15.300 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [86] ms
+11-May-2018 09:33:15.301 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:33:15.915 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [614] ms
+11-May-2018 09:33:15.916 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:33:15.987 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [70] ms
+11-May-2018 09:33:15.988 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:33:16.047 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [59] ms
+11-May-2018 09:33:16.048 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:33:16.106 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [57] ms
+11-May-2018 09:33:16.112 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:33:16.129 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:33:16.137 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1888 ms
+11-May-2018 09:34:16.142 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/day40]
+11-May-2018 09:34:16.142 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day40] has started
+11-May-2018 09:34:16.228 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day40] is completed
+11-May-2018 09:34:46.245 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/day40]
+11-May-2018 09:34:46.245 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day40] has started
+11-May-2018 09:34:46.290 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day40] is completed
+11-May-2018 09:35:20.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:35:20.490 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:35:20.491 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:35:20.491 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:35:20.491 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:35:20.492 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:35:20.492 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:35:20.492 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:35:20.493 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:35:20.493 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:35:20.493 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:35:20.494 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:35:20.494 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:35:20.495 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:35:20.495 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:35:20.495 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:35:20.497 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:35:20.497 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:35:20.498 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:35:20.501 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:35:20.504 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:35:20.506 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:35:20.511 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:35:20.513 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:35:21.433 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:35:21.514 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:35:21.800 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:35:21.815 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:35:21.820 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:35:21.821 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2252 ms
+11-May-2018 09:35:21.927 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:35:21.928 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:35:21.946 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40]
+11-May-2018 09:35:22.794 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [211] milliseconds.
+11-May-2018 09:35:22.860 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40] has finished in [913] ms
+11-May-2018 09:35:22.861 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:35:22.926 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [64] ms
+11-May-2018 09:35:22.927 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:35:23.670 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [744] ms
+11-May-2018 09:35:23.671 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:35:23.738 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [68] ms
+11-May-2018 09:35:23.739 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:35:23.805 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [66] ms
+11-May-2018 09:35:23.806 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:35:23.872 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [66] ms
+11-May-2018 09:35:23.885 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:35:23.906 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:35:23.912 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2090 ms
+11-May-2018 09:36:13.908 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/day40]
+11-May-2018 09:36:13.909 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day40] has started
+11-May-2018 09:36:13.957 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day40] is completed
+11-May-2018 09:36:24.805 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:36:24.812 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:36:24.812 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:36:24.813 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:36:24.813 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:36:24.813 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:36:24.813 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:36:24.814 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:36:24.815 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:36:24.815 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:36:24.816 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:36:24.818 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:36:24.818 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:36:24.819 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:36:24.819 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:36:24.820 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:36:24.829 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:36:24.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:36:24.838 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:36:24.838 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:36:24.839 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:36:24.840 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:36:24.840 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:36:24.841 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:36:25.868 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:36:25.966 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:36:26.244 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:36:26.255 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:36:26.260 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:36:26.261 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2354 ms
+11-May-2018 09:36:26.368 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:36:26.369 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:36:26.395 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40]
+11-May-2018 09:36:27.214 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [191] milliseconds.
+11-May-2018 09:36:27.269 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40] has finished in [874] ms
+11-May-2018 09:36:27.272 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:36:27.322 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [52] ms
+11-May-2018 09:36:27.323 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:36:27.903 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [581] ms
+11-May-2018 09:36:27.903 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:36:27.976 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [73] ms
+11-May-2018 09:36:27.977 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:36:28.048 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [71] ms
+11-May-2018 09:36:28.049 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:36:28.097 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [49] ms
+11-May-2018 09:36:28.112 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:36:28.129 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:36:28.135 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1874 ms
+11-May-2018 09:37:20.970 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:37:20.981 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:37:20.982 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:37:20.982 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:37:20.982 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:37:20.982 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:37:20.983 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:37:20.983 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:37:20.983 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:37:20.984 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:37:20.984 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:37:20.987 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:37:20.988 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:37:20.988 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:37:20.989 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:37:20.989 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:37:20.991 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:37:21.000 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:37:21.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:37:21.002 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:37:21.003 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:37:21.003 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:37:21.004 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:37:21.006 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:37:21.990 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:37:22.073 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:37:22.351 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:37:22.360 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:37:22.364 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:37:22.364 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2219 ms
+11-May-2018 09:37:22.466 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:37:22.467 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:37:22.491 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40]
+11-May-2018 09:37:23.248 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [209] milliseconds.
+11-May-2018 09:37:23.308 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40] has finished in [818] ms
+11-May-2018 09:37:23.310 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:37:23.358 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [48] ms
+11-May-2018 09:37:23.359 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:37:23.973 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [614] ms
+11-May-2018 09:37:23.974 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:37:24.038 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [64] ms
+11-May-2018 09:37:24.039 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:37:24.104 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [64] ms
+11-May-2018 09:37:24.104 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:37:24.154 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [50] ms
+11-May-2018 09:37:24.164 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:37:24.181 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:37:24.187 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1821 ms
+11-May-2018 09:43:12.854 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:43:12.861 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:43:12.862 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:43:12.862 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:43:12.863 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:43:12.863 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:43:12.863 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:43:12.864 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:43:12.864 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:43:12.864 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:43:12.864 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:43:12.864 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:43:12.865 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:43:12.865 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:43:12.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:43:12.866 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:43:12.867 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:43:12.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:43:12.868 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:43:12.869 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:43:12.869 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:43:12.873 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:43:12.876 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:43:12.876 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:43:13.807 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:43:13.870 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:43:14.150 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:43:14.169 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:43:14.172 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:43:14.174 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2257 ms
+11-May-2018 09:43:14.273 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:43:14.273 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:43:14.993 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [203] milliseconds.
+11-May-2018 09:43:15.451 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40]
+11-May-2018 09:43:15.517 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40] has finished in [66] ms
+11-May-2018 09:43:15.519 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:43:15.571 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [52] ms
+11-May-2018 09:43:15.571 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:43:16.159 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [588] ms
+11-May-2018 09:43:16.160 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:43:16.223 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [63] ms
+11-May-2018 09:43:16.223 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:43:16.274 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [50] ms
+11-May-2018 09:43:16.274 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:43:16.314 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [40] ms
+11-May-2018 09:43:16.322 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:43:16.340 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:43:16.346 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2171 ms
+11-May-2018 09:45:24.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:45:24.407 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:45:24.407 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:45:24.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:45:24.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:45:24.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:45:24.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:45:24.409 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:45:24.409 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:45:24.409 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:45:24.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:45:24.412 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:45:24.412 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:45:24.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:45:24.413 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:45:24.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:45:24.415 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:45:24.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:45:24.417 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:45:24.423 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:45:24.423 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:45:24.424 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:45:24.424 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:45:24.425 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:45:25.305 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:45:25.367 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:45:25.663 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:45:25.674 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:45:25.678 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:45:25.679 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2083 ms
+11-May-2018 09:45:25.786 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:45:25.786 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:45:25.851 严重 [Catalina-startStop-1] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+ java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tour]]
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:939)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:872)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tour]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	... 6 more
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@36ccce0]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4860)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4995)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 6 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [F:\LYxxx] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 9 more
+
+11-May-2018 09:45:25.855 严重 [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+ java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost]]
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:939)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:670)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:948)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:872)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 6 more
+
+11-May-2018 09:45:25.859 严重 [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+ org.apache.catalina.LifecycleException: Failed to start component [StandardServer[8005]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:670)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardService[Catalina]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 9 more
+Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:948)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 11 more
+
+11-May-2018 09:45:25.862 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:45:25.863 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:45:25.864 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-May-2018 09:45:25.867 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:45:25.872 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:45:31.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:45:31.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:45:31.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:45:31.460 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:45:31.460 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:45:31.460 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:45:31.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:45:31.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:45:31.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:45:31.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:45:31.462 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:45:31.462 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:45:31.463 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:45:31.463 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:45:31.463 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:45:31.464 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:45:31.464 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:45:31.465 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:45:31.466 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:45:31.466 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:45:31.467 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:45:31.467 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:45:31.469 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:45:31.473 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:45:32.391 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:45:32.450 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:45:32.726 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:45:32.743 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:45:32.746 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:45:32.747 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2162 ms
+11-May-2018 09:45:32.853 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:45:32.854 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:45:32.904 严重 [Catalina-startStop-1] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+ java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tour]]
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:939)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:872)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/tour]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	... 6 more
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@5c2c5026]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4860)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4995)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 6 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [F:\LYxxx] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 9 more
+
+11-May-2018 09:45:32.909 严重 [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+ java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost]]
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:939)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:670)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:948)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:872)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 6 more
+
+11-May-2018 09:45:32.914 严重 [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+ org.apache.catalina.LifecycleException: Failed to start component [StandardServer[8005]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:670)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardService[Catalina]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 9 more
+Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:948)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 11 more
+
+11-May-2018 09:45:32.917 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:45:32.918 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:45:32.919 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-May-2018 09:45:32.927 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:45:32.931 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:47:41.218 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+11-May-2018 09:47:41.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+11-May-2018 09:47:41.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+11-May-2018 09:47:41.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-May-2018 09:47:41.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2018 09:47:41.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2018 09:47:41.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9.0.1
+11-May-2018 09:47:41.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.1+11
+11-May-2018 09:47:41.230 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2018 09:47:41.231 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:47:41.232 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:47:41.234 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-May-2018 09:47:41.234 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-May-2018 09:47:41.235 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\logging.properties
+11-May-2018 09:47:41.239 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2018 09:47:41.240 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2018 09:47:41.240 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2018 09:47:41.240 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2018 09:47:41.241 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:47:41.241 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27
+11-May-2018 09:47:41.242 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\temp
+11-May-2018 09:47:41.242 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+11-May-2018 09:47:41.242 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11-May-2018 09:47:41.243 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2018 09:47:42.163 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+11-May-2018 09:47:42.243 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:47:42.497 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:47:42.511 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:47:42.514 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-May-2018 09:47:42.516 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2151 ms
+11-May-2018 09:47:42.621 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2018 09:47:42.622 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+11-May-2018 09:47:42.654 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+11-May-2018 09:47:43.424 警告 [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [208] milliseconds.
+11-May-2018 09:47:43.476 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [823] ms
+11-May-2018 09:47:43.479 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40]
+11-May-2018 09:47:43.535 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\day40] has finished in [56] ms
+11-May-2018 09:47:43.537 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs]
+11-May-2018 09:47:43.604 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\docs] has finished in [67] ms
+11-May-2018 09:47:43.606 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples]
+11-May-2018 09:47:44.232 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\examples] has finished in [625] ms
+11-May-2018 09:47:44.232 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager]
+11-May-2018 09:47:44.289 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [57] ms
+11-May-2018 09:47:44.290 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager]
+11-May-2018 09:47:44.354 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\manager] has finished in [64] ms
+11-May-2018 09:47:44.355 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT]
+11-May-2018 09:47:44.409 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [I:\传智黑马就业班\44(北黑)\web2018课程范本\day40-tomcat\day40-tomcat\资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [53] ms
+11-May-2018 09:47:44.417 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-May-2018 09:47:44.440 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-May-2018 09:47:44.448 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1931 ms
+11-May-2018 09:48:44.442 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/second]

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    使用的代理模式开发
+        namespace 必须对应接口的全类名
+-->
+<mapper namespace="com.itheima.mapper.UserMapper">
+    <!--
+        id： 与select查询中的resultMap一致
+        type: 数据封装的对象
+    -->
+    <resultMap id="user_map" type="User">
+        <!-- 标签id ：一般配置主键
+            属性：property: 属性名映射pojo对象的属性
+                  column : 列名映射数据库的列名
+         -->
+        <id property="id" column="_id"></id>
+        <result property="username" column="username"></result>
+    </resultMap>
+
+    <!--
+        代理模式开发：
+            id:必须对应接口中方法名
+            resultType:必须对应方法的返回值类型
+    -->
+    <select id="findAll" resultMap="user_map">
+        select * from user
+    </select>
+    <!--
+            代理模式开发：
+                id:必须对应接口中方法名
+                resultType:必须对应方法的返回值类型
+                parameterType：必须对应方法的参数类型
+        -->
+    <select id="findById" resultMap="user_map" parameterType="iNt">
+        select * from user where _id = #{a}
+    </select>
+
+    <!--<select id="findByPage" resultType="User" parameterType="QueryVO">-->
+        <!--select * from user where username like "%"#{user.username}"%" limit #{startIndex},#{pageSize}-->
+    <!--</select>-->
+
+    <select id="findByMap" resultType="User" parameterType="map">
+        select * from user where username like "%"#{username}"%" limit #{startIndex},#{pageSize}
+    </select>
+
+    <select id="findByManyQueryVo" resultType="User">
+        select * from user where username like "%"#{param1}"%" limit #{param3},#{param2}
+    </select>
+    
+    <!--
+        参数类型
+            简单类型： 基本数据类型， String , 引用时名称随便写
+            pojo： 引用时， 引入属性名
+            包装类型： 包含多个属性,适合团队协作开发
+            Map： 引用：key(键)
+            多参数： 引入 #{param1} ...
+
+    -->
+</mapper>

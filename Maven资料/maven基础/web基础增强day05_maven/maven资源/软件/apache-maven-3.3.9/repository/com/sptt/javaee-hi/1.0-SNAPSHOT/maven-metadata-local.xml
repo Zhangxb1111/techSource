@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.sptt</groupId>
+  <artifactId>javaee-hi</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20180830022310</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>war</extension>
+        <value>1.0-SNAPSHOT</value>
+        <updated>20180830022310</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-SNAPSHOT</value>
+        <updated>20180830022310</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

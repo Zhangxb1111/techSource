@@ -1,0 +1,18 @@
+1. mybatis ： 持久层的框架,   jdbc--jdbcTemplate -- dbutils -- mybatis
+
+2. spring : 两大核心：ioc 控制反转，包含依赖注入，依赖查找， aop：面向切面编程
+
+3. springMVC:表现层的框架,
+
+4. ssm: spring +  springmvc +mybatis --- spring全家桶
+
+5. oracle数据库 --  视图，索引，存储过程，存储函数, 触发器
+
+6. maven 实战: 把一个大项目拆分成多个子项目， 项目的拆分和聚合
+
+7. ssm综合练习
+	svn  ：版本控制工具
+	pageHelper: mybatyis的分页助手
+	spring-security:安全框架
+	使用之前学过的技术
+8. lucene: 全文检索工具

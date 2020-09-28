@@ -1,0 +1,42 @@
+delimiter $$
+create TRIGGER UPDATE_301 AFTER INSERT
+ON st_result_1000010301 FOR EACH ROW
+BEGIN
+DECLARE eq_code VARCHAR(40) CHARACTER set utf8;
+DECLARE eq_name VARCHAR(40) CHARACTER set utf8;
+SET eq_code=new.EQ_CODE;
+SET eq_name=new.EQ_NAME;
+IF eq_code='01002' OR eq_name='56#lower' or eq_name='71#lower'
+THEN UPDATE st_result_1000010301 SET EQ_CODE='01001',EQ_NAME='71#门机下部运行部分' WHERE ID=new.ID;
+END IF;
+END $$
+
+delimiter ;
+
+
+#查看当前是否已开启事件调度器
+show variables like 'event_scheduler';
+#要想保证能够执行event事件，就必须保证定时器是开启状态，默认为关闭状态
+set global event_scheduler =1;
+#或者set GLOBAL event_scheduler = ON;
+# 选择库
+use qdqg;
+# 如果原来存在该名字的任务计划则先删除
+drop event if exists schedule_301;
+delimiter $$
+ # 每天晚上01:00
+create event schedule_301  
+on schedule every 1 DAY   starts timestamp '2017-04-24 10:00:00'
+# 测试使用 1 hour
+on schedule every 2 SECOND starts TIMESTAMP(NOW())
+do
+begin
+    INSERT INTO st_result_1000010301 (`EQ_CODE`, `EQ_NAME`, `SENDTIME`, `STRESS1`, `TEMPER1`, `STRESS2`, `TEMPER2`, `STRESS3`, `TEMPER3`, `STRESS4`, `TEMPER4`, `STRESS5`, `TEMPER5`, `STRESS6`, `TEMPER6`, `STRESS7`, `TEMPER7`, `STRESS8`, `TEMPER8`, `STRESS9`, `TEMPER9`, `STRESS10`, `TEMPER10`, `STRESS11`, `TEMPER11`, `STRESS12`, `TEMPER12`) VALUES ('01001', '71#门机下部运行部分', TIMESTAMP(NOW()), '-3028.319', '32.088', '-418216.535', '58.137', '-2719.388', '32.172', '-3538.113', '-47080.239', '92.281', '42.140', '57.788', '37.733', '-129.595', '41.816', '-177.516', '31.064', '-271.865', '-47301.560', '73.067', '-46122.387', '-271.865', '-47301.560', '73.067', '-46122.387');
+end  $$
+delimiter ;
+# 停止
+ALTER EVENT schedule_301 DISABLE;
+# 开启
+alter event schedule_301 enable;
+# 查看状态
+select * from mysql.event

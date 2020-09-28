@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!--创建accountService: 通过了set方法注入accountDao-->
+    <bean id="accountService" class="com.itheima.service.impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao"></property>
+    </bean>
+
+    <!--创建accountDao对象，通过set方法注入QueryRunner-->
+    <bean id="accountDao" class="com.itheima.dao.impl.AccountDaoImpl">
+        <property name="queryRunner" ref="queryRunner"></property>
+    </bean>
+
+
+    <!--创建queryRunner对象，通过构造方法注入DataSource-->
+    <bean id="queryRunner" class="org.apache.commons.dbutils.QueryRunner">
+        <constructor-arg index="0" ref="dataSource"></constructor-arg>
+    </bean>
+    <!--创建dataSource对象-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+        <property name="jdbcUrl" value="${jdbc.url}"></property>
+        <property name="driverClass" value="${jdbc.driver}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+        <property name="user" value="${jdbc.user}"></property>
+     </bean>
+
+    <!--引入数据库的属性文件， ${} (ongl)引用属性文件的内容-->
+    <context:property-placeholder location="db.properties"></context:property-placeholder>
+
+</beans>

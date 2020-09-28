@@ -1,0 +1,18 @@
+1.  持久层的一个框架
+    ORM:(对象关系映射) 操作pojo对象，就是在操作数据库
+2. 自定义框架（了解）
+3. 框架的SQLSession接口中crud
+4. Mybatis动态代理方法CRUD（推荐）
+   注意：namespace与接口的全类名,包名一致的
+	方法和标签的id值一致
+5. 参数的深入
+    resultType: 简单类型，pojo
+    parameterType: 简单类型， pojo对象
+6. 连接池，事务
+7. 动态sql： if ,where, sql, foreach
+8. 一对一，一对多，多对多
+9. 延迟加载（懒加载）： lazy
+10. 缓存：一级缓存：一次会话
+	二级缓存：应用级别
+11. 注解开发
+	

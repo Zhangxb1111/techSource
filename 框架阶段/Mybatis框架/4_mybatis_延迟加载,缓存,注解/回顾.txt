@@ -1,0 +1,7 @@
+1.  连接池：
+2. 事务：sessionFactory.openSession(true);
+3. if    where  sql  '
+	foreach: collection（array， list）,open ,close ,separator(分隔符)
+4. 一对一:  一个账号对应一个用户
+  一对多:   一个用户包含多个账户
+多对多:	一个用户属于多个角色，一个角色对应多个用户

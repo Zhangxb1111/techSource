@@ -1,0 +1,40 @@
+能够说出File对象的创建方式
+	（常用）File(String pathName)
+	File(String parent, String child);
+	File(File parent, String child);
+能够说出File类获取名称的方法名称
+	（重要）getName()
+能够说出File类获取绝对路径的方法名称
+	 （重要）getAbsolutePath()	
+能够说出File类获取文件大小的方法名称
+		length()
+能够说出File类判断是否是文件的方法名称
+		isFile
+能够说出File类判断是否是文件夹的方法名称
+		isDirectory
+能够辨别相对路径和绝对路径
+	相对路径不是从盘符开始。idea里面相对路径相对的是当前项目。 
+	绝对路径： 是从盘符开始的  比如: d:\aa.txt
+能够遍历文件夹（重点）
+	递归...
+	public static void printDir(File dir) {
+		File[] files = dir.listFiles();
+		for(File thisFile : files) {
+			if(thisFile.isDirectory) {
+				printDir(thisFile);
+			} else {
+				sout(thisFile);
+			}
+		}
+	}
+能够解释递归的含义
+	方法调用自己
+能够使用递归的方式计算5的阶乘
+	
+能够说出使用递归会内存溢出隐患的原因
+	递归会不停的调用方法，每次调用方法都会在占空间开辟，久而久之，内存就不够了。
+	
+	
+重点：
+	File类以及File类中的方法。
+	递归（使用递归遍历文件夹， 递归求阶乘）

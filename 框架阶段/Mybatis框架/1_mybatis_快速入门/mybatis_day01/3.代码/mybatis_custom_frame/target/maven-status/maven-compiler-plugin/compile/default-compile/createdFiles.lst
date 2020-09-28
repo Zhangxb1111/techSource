@@ -1,0 +1,7 @@
+frame\factory\SqlSessionFactoryBuilder.class
+frame\domain\Configuration.class
+frame\factory\SqlSessionFactory.class
+frame\domain\Mapper.class
+frame\utils\Executor.class
+frame\dao\impl\SqlSessionImpl.class
+frame\dao\SqlSession.class

@@ -1,0 +1,116 @@
+实现方法： 
+1、 开始－＞设置－＞控制面板－＞管理工具－＞服务 停止所有Oracle服务。 
+2、 开始－＞程序－＞Oracle - OraHome81－＞Oracle Installation Products－＞ Universal Installer 卸装所有Oracle产品，但Universal Installer本身不能被删除。
+3、 运行regedit，选择HKEY_LOCAL_MACHINE\SOFTWARE\ORACLE，按del键删除这个入口。 
+4、 运行regedit，选择HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services，滚动 这个列表，删除所有Oracle入口。 
+5、 运行refedit， HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Application， 删除所有Oracle入口。 
+6、 开始－＞设置－＞控制面板－＞系统－＞高级－＞环境变量 删除环境变量CLASSPATH和PATH中有关Oracle的设定。
+7、 从桌面上－＞STARTUP（启动）组－＞程序菜单中，删除所有有关Oracle的组和图标。
+8、 删除\Program Files\Oracle目录。
+9、 重新启动计算机，重起后才能完全删除Oracle所在目录。
+10、删除与Oracle有关的文件，选择Oracle所在的缺省目录C:\Oracle，删除这个入口目录及所有子目录，并从Windows 2000目录（一般为C:\WINNT）下删除以下文 件ORACLE.INI、oradim73.INI、oradim80.INI、oraodbc.ini等等。 
+11、 WIN.INI文件中若有[ORACLE]的标记段，删除该段。
+12、 如有必要，删除所有Oracle相关的ODBC的DSN。
+13、 到事件查看器中，删除Oracle相关的日志。
+
+ 
+ 
+
+
+
+
+
+
+
+
+最后再提示下，安装完Oracle后，你肯能会发现开机启动变得很慢，那么没关系，只要在服务中把所有Oracle的服务都设置成手动的就行了，等你需要用Oracle的时候再去服务中启动。控制面板→系统和安全→管理工具→服务。其中OracleJobSchedulerXSCJ本来就默认的禁用，就不用再设置成手动了。平时如果只用SQL PLUS的话那就只需要启动OracleServiceXSCJ和OracleOraDb10g_home1TNSListener就可以了。如果还需要用网页版的OEM的话可以再启动OracleDBConsoleXSCJ，如果还需要用iSQL*Plus 的话，就可以再启动OracleOraDb10g_home1iSQL*Plus。这样我们就可以用最少的资源完成我的工作了。 
+
+2.找到oracle安装文件中的setup应用程序，右击，打开“兼容性疑难解答”，点击“尝试建议的设置”，选择“启动程序”。
+3.安装oracle 10g，直到安装程序结束。
+4.根据以上几步的安装，oracle很可能无法正常使用，最起码在我安装结束后，我的sqlplus无法正常使用，这种情况就涉及到权限的问题。具体可通过以下措施解决：
+a)打开你已经安装好的oracle程序的路径“\oracle\product\10.2.0\db_1\BIN”，点击sqlplus.exe应用程序，右击—属性，选择兼容性，点击“以兼容模式运行这个程序”单选框，选择“window xp(service pack3)”，继续点击“以管理员身份运行此程序”单选框，最后点击应用-确定。
+b)如此sqlplus就可以正常使用了。
+5.对于一些需要远程访问数据库的用户，如此配置还会遇到Net Configuration Assistant无法启动的情况，这就需要找到“\oracle\product\10.2.0\db_1\BIN”路径下的launch.exe应用程序，具体配置如上5。
+6.综合以上的配置，oracle 10g数据库就可以正常使用了。
+7.对于数据库开发人员来说，有时候需要借助数据库工具对数据库进行操作，比如利用plsql developer工具操作数据库。如果利用以上oracle的安装配置，可能无法正常使用plsql developer，这涉及权限的问题，可以给“plsqldev.exe”应用程序设定兼容性和权限。具体操作，如上5 
+
+
+删除oracle的方法
+
+　　实现方法： 
+　　1、     开始－＞设置－＞控制面板－＞管理工具－＞服务
+　　停止所有Oracle服务。
+
+　　2、 开始－＞程序－＞Oracle - OraHome81－＞Oracle Installation Products－＞
+　　Universal Installer
+　　卸装所有Oracle产品，但Universal Installer本身不能被删除
+
+　　5、 运行regedit，选择HKEY_LOCAL_MACHINE\SOFTWARE\ORACLE，按del键删除这个入口。
+
+　　6、 运行regedit，选择HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services，滚动
+　　这个列表，删除所有Oracle入口。
+
+　　7、 运行refedit，
+　　HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Application，
+　　删除所有Oracle入口。
+
+　　8、 开始－＞设置－＞控制面板－＞系统－＞高级－＞环境变量
+　　删除环境变量CLASSPATH和PATH中有关Oracle的设定
+
+　　9、 从桌面上、STARTUP（启动）组、程序菜单中，删除所有有关Oracle的组和图标
+
+　　10、 删除\Program Files\Oracle目录
+
+　　11、 重新启动计算机，重起后才能完全删除Oracle所在目录
+
+　　12、 删除与Oracle有关的文件，选择Oracle所在的缺省目录C:\Oracle，删除这个入
+　　口目录及所有子目录，并从Windows 2000目录（一般为C:\WINNT）下删除以下文
+　　件ORACLE.INI、oradim73.INI、oradim80.INI、oraodbc.ini等等。
+
+　　13、 WIN.INI文件中若有[ORACLE]的标记段，删除该段
+
+　　14、 如有必要，删除所有Oracle相关的ODBC的DSN
+
+　　15、 到事件查看器中，删除Oracle相关的日志
+
+
+错误A：
+
+正在检查操作系统要求...
+要求的结果: 5.0,5.1,5.2,6.0 之一
+实际结果: 6.1
+检查完成。此次检查的总体结果为: 失败 <<<<
+问题: Oracle Database 11g 未在当前操作系统中经过认证。
+建议案: 确保在正确的平台上安装软件。
+
+解决方案：
+
+1、在安装目录中搜索refhost.xml，然后在适当位置添加以下内容，注意括号配对
+
+<!--Microsoft Windows 7-->
+
+<OPERATING_SYSTEM>
+<VERSION VALUE="6.1"/>
+</OPERATING_SYSTEM>
+2、在安装目录中搜索oraparam.ini，找到以下相似内容，然后修改为
+
+#You can customise error message shown for failure, provide value for CERTIFIED_VERSION_FAILURE_MESSAGE
+#Windows=5.0,5.1,5.2,6.0,6.1
+
+然后在适当位置添加
+
+#[Windows-6.1-required]
+#Minimum display colours for OUI to run
+MIN_DISPLAY_COLORS=256
+#Minimum CPU speed required for OUI
+#CPU=300
+#[Windows-6.1-optional]
+
+错误B：
+
+正在检查网络配置要求...
+检查完成。此次检查的总体结果为: 失败 <<<<
+问题: 安装检测到系统的主 IP 地址是 DHCP 分配的地址。
+建议案: Oracle 支持在具有 DHCP 分配的 IP 地址的系统上进行安装。但在安装之前, 必须将 Microsoft LoopBack Adapter 配置为系统的主网络适配器。有关在配置有 DHCP 的系统上安装软件的详细信息, 请参阅 Installation Guide。
+
+C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Broadcom\WHL\;C:\Program Files\Broadcom\WHL\syswow64;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files (x86)\Windows Live\Shared;C:\SWTOOLS\ReadyApps;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files (x86)\Symantec\VIP Access Client\;

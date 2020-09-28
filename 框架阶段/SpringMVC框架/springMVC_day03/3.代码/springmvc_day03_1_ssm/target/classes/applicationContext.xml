@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--<properties resource="db.properties"> </properties>-->
+    <context:property-placeholder location="classpath:db.properties"></context:property-placeholder>
+    <!--配置数据源:代替sqlMapconfig中的数据源-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="jdbcUrl" value="${jdbc.url}"></property>
+        <property name="driverClass" value="${jdbc.driver}"></property>
+        <property name="user" value="${jdbc.user}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+
+    <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="configurationProperties">
+            <props>
+                <prop key="logImpl" >STDOUT_LOGGING</prop>
+            </props>
+        </property>
+        <!--<property name="configLocation" value="classpath:SqlMapConfig.xml"></property>-->
+     </bean>
+
+    <!--扫描service包，创建service对象-->
+    <context:component-scan base-package="com.itheima.service">
+        <!--包含过滤-->
+        <!--<context:include-filter type="annotation" expression="org.springframework.stereotype.Service"></context:include-filter>-->
+        <!--排除过滤-->
+        <!--<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"></context:exclude-filter>-->
+    </context:component-scan>
+    <!--配置： 通过dao的接口创建动态代理类-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.itheima.dao"></property>
+        <!--引用只能是一个名字，而不是一个对象-->
+        <property name="sqlSessionFactoryBeanName" value="sessionFactory"></property>
+    </bean>
+
+    <!--配置事务-->
+    <!--事务的管理器-->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--通知增强-->
+    <tx:advice id="txAdive" transaction-manager="txManager">
+        <tx:attributes>
+            <!--如果方法以find，get，select开头，配置成只读的事务-->
+            <tx:method name="find*" read-only="true"/>
+            <tx:method name="get*" read-only="true"/>
+            <tx:method name="select*" read-only="true"/>
+            <!--其他方法都需要使用事务-->
+            <tx:method name="*"></tx:method>
+        </tx:attributes>
+    </tx:advice>
+    <!--aop : 切面配置-->
+    <aop:config >
+        <!--织入-->
+        <aop:advisor advice-ref="txAdive" pointcut="execution(* com.itheima.service..*.*(..))"></aop:advisor>
+    </aop:config>
+</beans>

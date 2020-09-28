@@ -1,0 +1,3 @@
+-DarchetypeCatalog=local
+
+<%@page isELIgnored="false" %>

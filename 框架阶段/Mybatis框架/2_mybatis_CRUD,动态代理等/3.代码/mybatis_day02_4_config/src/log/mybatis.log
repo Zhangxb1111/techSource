@@ -1,0 +1,809 @@
+2018-09-14 11:01:53,343 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 11:01:53,433 90     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:01:53,433 90     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:01:53,433 90     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:01:53,433 90     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:01:53,628 285    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 11:01:53,806 463    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1605396.
+2018-09-14 11:01:53,806 463    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@187f14]
+2018-09-14 11:01:53,808 465    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==>  Preparing: select * from user 
+2018-09-14 11:01:53,839 496    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==> Parameters: 
+2018-09-14 11:01:53,860 517    [           main] DEBUG eima.mapper.UserMapper.findAll  - <==      Total: 8
+2018-09-14 11:08:40,072 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 11:08:40,180 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:08:40,180 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:08:40,180 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:08:40,180 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:08:40,272 200    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 11:08:40,444 372    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 11849456.
+2018-09-14 11:08:40,445 373    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b4cef0]
+2018-09-14 11:08:40,447 375    [           main] DEBUG ima.mapper.UserMapper.findById  - ==>  Preparing: select * from user where id = ? 
+2018-09-14 11:08:40,466 394    [           main] DEBUG ima.mapper.UserMapper.findById  - ==> Parameters: 1(Integer)
+2018-09-14 11:08:40,490 418    [           main] DEBUG ima.mapper.UserMapper.findById  - <==      Total: 1
+2018-09-14 11:08:40,490 418    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b4cef0]
+2018-09-14 11:08:40,491 419    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@b4cef0]
+2018-09-14 11:08:40,491 419    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 11849456 to pool.
+2018-09-14 11:13:16,776 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 11:13:16,866 90     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:13:16,866 90     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:13:16,866 90     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:13:16,867 91     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:13:16,951 175    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 11:13:17,137 361    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 3465785.
+2018-09-14 11:13:17,138 362    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@34e239]
+2018-09-14 11:13:17,140 364    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==>  Preparing: select * from user 
+2018-09-14 11:13:17,160 384    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==> Parameters: 
+2018-09-14 11:13:17,183 407    [           main] DEBUG eima.mapper.UserMapper.findAll  - <==      Total: 8
+2018-09-14 11:13:17,183 407    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@34e239]
+2018-09-14 11:13:17,184 408    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@34e239]
+2018-09-14 11:13:17,184 408    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 3465785 to pool.
+2018-09-14 11:17:22,979 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 11:17:23,075 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:17:23,075 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:17:23,075 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:17:23,075 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:17:23,158 179    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 11:17:23,347 368    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 26353184.
+2018-09-14 11:17:23,347 368    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1921e20]
+2018-09-14 11:17:23,350 371    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==>  Preparing: select * from user 
+2018-09-14 11:17:23,377 398    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==> Parameters: 
+2018-09-14 11:17:23,395 416    [           main] DEBUG eima.mapper.UserMapper.findAll  - <==      Total: 8
+2018-09-14 11:17:23,395 416    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1921e20]
+2018-09-14 11:17:23,396 417    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1921e20]
+2018-09-14 11:17:23,396 417    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 26353184 to pool.
+2018-09-14 11:21:06,440 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 11:21:06,541 101    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:21:06,542 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:21:06,542 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:21:06,542 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:21:06,622 182    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 11:21:06,804 364    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 26353184.
+2018-09-14 11:21:06,804 364    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1921e20]
+2018-09-14 11:21:06,805 365    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==>  Preparing: select * from user 
+2018-09-14 11:21:06,828 388    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==> Parameters: 
+2018-09-14 11:21:06,844 404    [           main] DEBUG eima.mapper.UserMapper.findAll  - <==      Total: 8
+2018-09-14 11:21:06,845 405    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1921e20]
+2018-09-14 11:21:06,845 405    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1921e20]
+2018-09-14 11:21:06,845 405    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 26353184 to pool.
+2018-09-14 11:23:53,829 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 11:23:53,905 76     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 11:23:53,905 76     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 11:23:53,906 77     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 11:23:53,906 77     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 11:23:53,907 78     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 11:23:53,907 78     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:23:53,907 78     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:23:53,941 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 11:23:53,941 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:23:53,941 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:23:53,941 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:23:53,942 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 /
+2018-09-14 11:23:53,942 113    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 11:23:53,973 144    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:23:53,973 144    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:23:53,973 144    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:23:53,973 144    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:23:54,064 235    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 11:23:54,254 425    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 10991469.
+2018-09-14 11:23:54,254 425    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@a7b76d]
+2018-09-14 11:23:54,256 427    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==>  Preparing: select * from user 
+2018-09-14 11:23:54,276 447    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==> Parameters: 
+2018-09-14 11:23:54,299 470    [           main] DEBUG eima.mapper.UserMapper.findAll  - <==      Total: 8
+2018-09-14 11:23:54,299 470    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@a7b76d]
+2018-09-14 11:23:54,299 470    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@a7b76d]
+2018-09-14 11:23:54,300 471    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 10991469 to pool.
+2018-09-14 11:26:35,374 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 11:26:35,444 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 11:26:35,445 71     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 11:26:35,445 71     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 11:26:35,446 72     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 11:26:35,446 72     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 11:26:35,447 73     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:26:35,447 73     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:26:35,471 97     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 11:26:35,471 97     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:26:35,471 97     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:26:35,471 97     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:26:35,471 97     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 /
+2018-09-14 11:26:35,472 98     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 11:26:35,505 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:26:35,505 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:26:35,505 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:26:35,505 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:26:35,602 228    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 11:26:35,794 420    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 15115869.
+2018-09-14 11:26:35,794 420    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:26:35,795 421    [           main] DEBUG ima.mapper.UserMapper.findById  - ==>  Preparing: select * from user where id = ? 
+2018-09-14 11:26:35,816 442    [           main] DEBUG ima.mapper.UserMapper.findById  - ==> Parameters: 1(Integer)
+2018-09-14 11:26:35,837 463    [           main] DEBUG ima.mapper.UserMapper.findById  - <==      Total: 1
+2018-09-14 11:26:35,837 463    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:26:35,838 464    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:26:35,838 464    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 15115869 to pool.
+2018-09-14 11:27:58,112 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 11:27:58,187 75     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 11:27:58,187 75     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 11:27:58,187 75     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 11:27:58,188 76     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 11:27:58,188 76     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 11:27:58,189 77     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:27:58,189 77     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:27:58,219 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 11:27:58,219 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:27:58,219 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:27:58,219 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:27:58,220 108    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 11:27:58,220 108    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 11:27:58,243 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:27:58,243 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:27:58,243 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:27:58,243 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:27:58,358 246    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 11:27:58,531 419    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 15115869.
+2018-09-14 11:27:58,531 419    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:27:58,533 421    [           main] DEBUG ima.mapper.UserMapper.findById  - ==>  Preparing: select * from user where id = ? 
+2018-09-14 11:27:58,555 443    [           main] DEBUG ima.mapper.UserMapper.findById  - ==> Parameters: 1(Integer)
+2018-09-14 11:27:58,577 465    [           main] DEBUG ima.mapper.UserMapper.findById  - <==      Total: 1
+2018-09-14 11:27:58,578 466    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:27:58,578 466    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:27:58,578 466    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 15115869 to pool.
+2018-09-14 11:28:11,685 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 11:28:11,754 69     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 11:28:11,754 69     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 11:28:11,754 69     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 11:28:11,755 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 11:28:11,755 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 11:28:11,755 70     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:28:11,755 70     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:28:11,788 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 11:28:11,788 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:28:11,788 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:28:11,788 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:28:11,788 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 11:28:11,789 104    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 11:28:11,815 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:28:11,815 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:28:11,815 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:28:11,815 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:28:11,906 221    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 11:28:12,082 397    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 15115869.
+2018-09-14 11:28:12,082 397    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:28:12,084 399    [           main] DEBUG ima.mapper.UserMapper.findById  - ==>  Preparing: select * from user where id = ? 
+2018-09-14 11:28:12,116 431    [           main] DEBUG ima.mapper.UserMapper.findById  - ==> Parameters: 1(Integer)
+2018-09-14 11:28:12,133 448    [           main] DEBUG ima.mapper.UserMapper.findById  - <==      Total: 1
+2018-09-14 11:28:12,135 450    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:28:12,135 450    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:28:12,135 450    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 15115869 to pool.
+2018-09-14 11:33:23,868 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 11:33:23,939 71     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 11:33:23,939 71     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 11:33:23,939 71     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 11:33:23,940 72     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 11:33:23,940 72     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 11:33:23,941 73     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:33:23,941 73     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:33:23,976 108    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 11:33:23,977 109    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:33:23,977 109    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:33:23,977 109    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:33:23,977 109    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 11:33:23,977 109    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 11:33:24,001 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:33:24,001 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:33:24,001 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:33:24,001 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:33:24,003 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 11:33:24,003 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 11:33:24,005 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 11:33:24,005 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 11:33:24,005 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 11:33:24,006 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 11:33:24,006 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 11:33:24,006 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 
+2018-09-14 11:33:24,006 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 11:33:24,006 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 11:33:24,006 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 11:33:24,006 138    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 11:33:24,101 233    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 11:33:24,284 416    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 15115869.
+2018-09-14 11:33:24,284 416    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:33:24,286 418    [           main] DEBUG ima.mapper.UserMapper.findById  - ==>  Preparing: select * from user where id = ? 
+2018-09-14 11:33:24,310 442    [           main] DEBUG ima.mapper.UserMapper.findById  - ==> Parameters: 1(Integer)
+2018-09-14 11:33:24,331 463    [           main] DEBUG ima.mapper.UserMapper.findById  - <==      Total: 1
+2018-09-14 11:33:24,335 467    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:33:24,335 467    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:33:24,335 467    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 15115869 to pool.
+2018-09-14 11:34:29,895 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 11:34:29,967 72     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 11:34:29,967 72     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 11:34:29,967 72     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 11:34:29,968 73     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 11:34:29,968 73     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 11:34:29,968 73     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:34:29,969 74     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:34:30,001 106    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 11:34:30,001 106    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:34:30,002 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:34:30,002 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:34:30,002 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 11:34:30,003 108    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 11:34:30,030 135    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:34:30,030 135    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:34:30,031 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:34:30,031 136    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:34:30,033 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 11:34:30,033 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 11:34:30,035 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2018-09-14 11:34:30,035 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 11:34:30,035 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 11:34:30,035 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserDao.xml
+2018-09-14 11:34:30,036 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserDao.xml
+2018-09-14 11:34:30,036 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 11:34:30,036 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 11:34:30,036 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 11:34:30,036 141    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 
+2018-09-14 11:34:30,037 142    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 11:34:50,172 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 11:34:50,250 78     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 11:34:50,250 78     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 11:34:50,250 78     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 11:34:50,251 79     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 11:34:50,252 80     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 11:34:50,252 80     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:34:50,253 81     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:34:50,280 108    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 11:34:50,280 108    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 11:34:50,281 109    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:34:50,281 109    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 11:34:50,281 109    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 11:34:50,281 109    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 11:34:50,306 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:34:50,306 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:34:50,306 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:34:50,306 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 11:34:50,308 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 11:34:50,308 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 11:34:50,310 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 11:34:50,310 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 11:34:50,310 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 11:34:50,310 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 11:34:50,310 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 11:34:50,310 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 
+2018-09-14 11:34:50,310 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 11:34:50,311 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 11:34:50,311 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 11:34:50,311 139    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 11:34:50,408 236    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 11:34:50,598 426    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 15115869.
+2018-09-14 11:34:50,598 426    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:34:50,601 429    [           main] DEBUG ima.mapper.UserMapper.findById  - ==>  Preparing: select * from user where id = ? 
+2018-09-14 11:34:50,626 454    [           main] DEBUG ima.mapper.UserMapper.findById  - ==> Parameters: 1(Integer)
+2018-09-14 11:34:50,642 470    [           main] DEBUG ima.mapper.UserMapper.findById  - <==      Total: 1
+2018-09-14 11:34:50,644 472    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:34:50,644 472    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@e6a65d]
+2018-09-14 11:34:50,644 472    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 15115869 to pool.
+2018-09-14 12:03:24,591 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:03:24,664 73     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:03:24,664 73     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:03:24,665 74     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:03:24,665 74     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:03:24,666 75     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:03:24,666 75     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:03:24,666 75     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:03:24,697 106    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:03:24,698 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:03:24,698 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:03:24,698 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:03:24,698 107    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:03:24,699 108    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:03:24,699 108    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:03:24,699 108    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:03:24,700 109    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:03:24,700 109    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:03:24,702 111    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:03:24,723 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:03:24,723 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:03:24,723 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:03:24,723 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:04:35,997 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:04:36,067 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:04:36,067 70     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:04:36,067 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:04:36,067 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:04:36,067 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:04:36,067 70     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:04:36,068 71     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:04:36,094 97     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:04:36,094 97     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:04:36,094 97     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:04:36,094 97     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:04:36,094 97     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:04:36,094 97     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:04:36,095 98     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:04:36,095 98     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:04:36,095 98     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:04:36,095 98     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:04:36,096 99     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:04:36,124 127    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:04:36,124 127    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:04:36,124 127    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:04:36,125 128    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:09,417 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:05:09,485 68     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:05:09,485 68     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:05:09,485 68     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:05:09,486 69     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:05:09,487 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:05:09,487 70     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:05:09,487 70     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:05:09,519 102    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:05:09,519 102    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:05:09,519 102    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:05:09,520 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:05:09,520 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:05:09,520 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:05:09,520 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:05:09,520 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:05:09,520 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:05:09,521 104    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:05:09,522 105    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:05:09,546 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:09,546 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:09,546 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:09,546 129    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:09,547 130    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:05:09,547 130    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:05:09,548 131    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 12:05:09,548 131    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 12:05:09,548 131    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:05:09,548 131    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:05:09,548 131    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:05:09,549 132    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; 
+2018-09-14 12:05:09,549 132    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:05:09,549 132    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:05:09,549 132    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 12:05:09,549 132    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 12:05:09,648 231    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 12:05:09,818 401    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 16815450.
+2018-09-14 12:05:09,818 401    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@100955a]
+2018-09-14 12:05:09,821 404    [           main] DEBUG ima.mapper.UserMapper.findById  - ==>  Preparing: select * from user where id = ? 
+2018-09-14 12:05:09,846 429    [           main] DEBUG ima.mapper.UserMapper.findById  - ==> Parameters: 1(Integer)
+2018-09-14 12:05:09,863 446    [           main] DEBUG ima.mapper.UserMapper.findById  - <==      Total: 1
+2018-09-14 12:05:09,865 448    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@100955a]
+2018-09-14 12:05:09,866 449    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@100955a]
+2018-09-14 12:05:09,866 449    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 16815450 to pool.
+2018-09-14 12:05:28,056 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:05:28,124 68     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:05:28,124 68     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:05:28,125 69     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:05:28,125 69     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:05:28,125 69     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:05:28,125 69     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:05:28,125 69     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:05:28,155 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:05:28,156 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:05:28,156 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:05:28,156 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:05:28,156 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:05:28,156 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:05:28,157 101    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:05:28,157 101    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:05:28,157 101    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:05:28,158 102    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:05:28,159 103    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:05:28,190 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:28,190 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:28,190 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:28,190 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:28,192 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:05:28,192 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:05:28,192 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 12:05:28,193 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 12:05:28,193 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:05:28,193 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:05:28,193 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:05:28,193 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; 
+2018-09-14 12:05:28,193 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:05:28,193 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:05:28,193 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 12:05:28,194 138    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 12:05:28,293 237    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 12:05:28,478 422    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 16815450.
+2018-09-14 12:05:28,478 422    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@100955a]
+2018-09-14 12:05:28,481 425    [           main] DEBUG a.mapper.UserMapper.findByPage  - ==>  Preparing: select * from user where username like "%"?"%" limit ?,? 
+2018-09-14 12:05:28,507 451    [           main] DEBUG a.mapper.UserMapper.findByPage  - ==> Parameters: 王(String), 0(Integer), 10(Integer)
+2018-09-14 12:05:28,524 468    [           main] DEBUG a.mapper.UserMapper.findByPage  - <==      Total: 6
+2018-09-14 12:05:28,525 469    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@100955a]
+2018-09-14 12:05:28,526 470    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@100955a]
+2018-09-14 12:05:28,526 470    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 16815450 to pool.
+2018-09-14 12:05:43,816 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:05:43,885 69     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:05:43,885 69     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:05:43,886 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:05:43,886 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:05:43,887 71     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:05:43,887 71     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:05:43,887 71     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:05:43,918 102    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:05:43,918 102    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:05:43,918 102    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:05:43,918 102    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:05:43,918 102    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:05:43,919 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:05:43,919 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:05:43,919 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:05:43,920 104    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:05:43,920 104    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:05:43,921 105    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:05:43,948 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:43,948 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:43,948 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:43,948 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:05:43,949 133    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:05:43,949 133    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:05:43,950 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 12:05:43,950 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 12:05:43,950 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:05:43,950 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:05:43,950 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:05:43,950 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; 
+2018-09-14 12:05:43,950 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:05:43,950 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:05:43,951 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 12:05:43,951 135    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 12:05:44,052 236    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 12:05:44,224 408    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 16815450.
+2018-09-14 12:05:44,225 409    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@100955a]
+2018-09-14 12:05:44,227 411    [           main] DEBUG a.mapper.UserMapper.findByPage  - ==>  Preparing: select * from user where username like "%"?"%" limit ?,? 
+2018-09-14 12:05:44,252 436    [           main] DEBUG a.mapper.UserMapper.findByPage  - ==> Parameters: 王(String), 0(Integer), 2(Integer)
+2018-09-14 12:05:44,269 453    [           main] DEBUG a.mapper.UserMapper.findByPage  - <==      Total: 2
+2018-09-14 12:05:44,269 453    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@100955a]
+2018-09-14 12:05:44,269 453    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@100955a]
+2018-09-14 12:05:44,270 454    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 16815450 to pool.
+2018-09-14 12:09:40,407 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:09:40,476 69     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:09:40,476 69     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:09:40,477 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:09:40,477 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:09:40,478 71     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:09:40,478 71     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:09:40,478 71     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:09:40,506 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:09:40,506 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:09:40,506 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:09:40,506 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:09:40,506 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:09:40,507 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:09:40,507 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:09:40,507 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:09:40,508 101    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:09:40,508 101    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:09:40,508 101    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:09:40,531 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:09:40,531 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:09:40,531 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:09:40,531 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:09:40,532 125    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:09:40,533 126    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:09:40,533 126    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 12:09:40,533 126    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 12:09:40,533 126    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:09:40,533 126    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:09:40,533 126    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:09:40,534 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; 
+2018-09-14 12:09:40,534 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:09:40,534 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:09:40,534 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 12:09:40,534 127    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 12:09:40,617 210    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 12:09:40,787 380    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 28691712.
+2018-09-14 12:09:40,788 381    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1b5cd00]
+2018-09-14 12:09:40,789 382    [           main] DEBUG ma.mapper.UserMapper.findByMap  - ==>  Preparing: select * from user where username like "%"?"%" limit ?,? 
+2018-09-14 12:09:40,815 408    [           main] DEBUG ma.mapper.UserMapper.findByMap  - ==> Parameters: 王(String), null, 3(Integer)
+2018-09-14 12:09:57,313 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:09:57,383 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:09:57,383 70     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:09:57,384 71     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:09:57,384 71     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:09:57,384 71     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:09:57,385 72     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:09:57,385 72     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:09:57,411 98     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:09:57,411 98     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:09:57,411 98     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:09:57,411 98     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:09:57,411 98     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:09:57,412 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:09:57,412 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:09:57,412 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:09:57,412 99     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:09:57,412 99     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:09:57,413 100    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:09:57,437 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:09:57,438 125    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:09:57,438 125    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:09:57,438 125    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:09:57,439 126    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:09:57,440 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:09:57,440 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 12:09:57,440 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 12:09:57,440 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:09:57,440 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:09:57,440 127    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:09:57,441 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; 
+2018-09-14 12:09:57,441 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:09:57,441 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:09:57,441 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 12:09:57,441 128    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 12:09:57,536 223    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 12:09:57,719 406    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 28691712.
+2018-09-14 12:09:57,719 406    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1b5cd00]
+2018-09-14 12:09:57,721 408    [           main] DEBUG ma.mapper.UserMapper.findByMap  - ==>  Preparing: select * from user where username like "%"?"%" limit ?,? 
+2018-09-14 12:09:57,742 429    [           main] DEBUG ma.mapper.UserMapper.findByMap  - ==> Parameters: 王(String), 0(Integer), 3(Integer)
+2018-09-14 12:09:57,760 447    [           main] DEBUG ma.mapper.UserMapper.findByMap  - <==      Total: 3
+2018-09-14 12:09:57,761 448    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1b5cd00]
+2018-09-14 12:09:57,761 448    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1b5cd00]
+2018-09-14 12:09:57,761 448    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 28691712 to pool.
+2018-09-14 12:13:50,638 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:13:50,714 76     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:13:50,714 76     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:13:50,715 77     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:13:50,715 77     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:13:50,716 78     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:13:50,716 78     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:13:50,716 78     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:13:50,742 104    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:13:50,743 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:13:50,743 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:13:50,743 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:13:50,743 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:13:50,743 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:13:50,744 106    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:13:50,744 106    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:13:50,744 106    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:13:50,744 106    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:13:50,745 107    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:13:50,771 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:13:50,772 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:13:50,772 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:13:50,772 134    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:13:50,775 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:13:50,775 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:13:50,776 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 12:13:50,776 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 12:13:50,777 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:13:50,777 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:13:50,777 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:13:50,777 139    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; 
+2018-09-14 12:13:50,778 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:13:50,778 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:13:50,778 140    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 12:13:50,778 140    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 12:13:50,892 254    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 12:13:51,084 446    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 25300561.
+2018-09-14 12:13:51,084 446    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1820e51]
+2018-09-14 12:13:51,086 448    [           main] DEBUG r.UserMapper.findByManyQueryVo  - ==>  Preparing: select * from user where username like "%"?"%" limit ?,? 
+2018-09-14 12:13:51,112 474    [           main] DEBUG r.UserMapper.findByManyQueryVo  - ==> Parameters: 王(String), 0(Integer), 3(Integer)
+2018-09-14 12:13:51,127 489    [           main] DEBUG r.UserMapper.findByManyQueryVo  - <==      Total: 3
+2018-09-14 12:13:51,127 489    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1820e51]
+2018-09-14 12:13:51,127 489    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1820e51]
+2018-09-14 12:13:51,128 490    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 25300561 to pool.
+2018-09-14 12:15:05,083 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:15:05,158 75     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:15:05,158 75     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:15:05,159 76     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:15:05,159 76     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:15:05,159 76     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:15:05,160 77     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:15:05,160 77     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:15:05,195 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:15:05,195 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:15:05,195 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:15:05,195 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:15:05,195 112    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:15:05,196 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:15:05,196 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:15:05,197 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:15:05,197 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:15:05,198 115    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:15:05,199 116    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:15:05,228 145    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:15:05,228 145    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:15:05,229 146    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:15:05,229 146    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:15:05,230 147    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:15:05,230 147    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:15:05,231 148    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 12:15:05,231 148    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 12:15:05,231 148    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:15:05,231 148    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:15:05,231 148    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:15:05,232 149    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; 
+2018-09-14 12:15:05,232 149    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:15:05,233 150    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:15:05,233 150    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 12:15:05,233 150    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 12:15:05,324 241    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 12:15:05,499 416    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 25300561.
+2018-09-14 12:15:05,499 416    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1820e51]
+2018-09-14 12:15:05,501 418    [           main] DEBUG r.UserMapper.findByManyQueryVo  - ==>  Preparing: select * from user where username like "%"?"%" limit ?,? 
+2018-09-14 12:15:05,522 439    [           main] DEBUG r.UserMapper.findByManyQueryVo  - ==> Parameters: 王(String), 0(Integer), 3(Integer)
+2018-09-14 12:15:05,539 456    [           main] DEBUG r.UserMapper.findByManyQueryVo  - <==      Total: 3
+2018-09-14 12:15:05,539 456    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1820e51]
+2018-09-14 12:15:05,539 456    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1820e51]
+2018-09-14 12:15:05,539 456    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 25300561 to pool.
+2018-09-14 12:18:29,618 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:18:29,691 73     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:18:29,691 73     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:18:29,691 73     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:18:29,692 74     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:18:29,692 74     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:18:29,692 74     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:18:29,692 74     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:18:29,720 102    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:18:29,721 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:18:29,721 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:18:29,721 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:18:29,721 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:18:29,721 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:18:29,721 103    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:18:29,722 104    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:18:29,722 104    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:18:29,722 104    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:18:29,722 104    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:18:29,750 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:18:29,750 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:18:29,750 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:18:29,750 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:18:29,752 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:18:29,752 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:18:29,752 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 12:18:29,752 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 12:18:29,752 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:18:29,753 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:18:29,753 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:18:29,753 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; 
+2018-09-14 12:18:29,753 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:18:29,753 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:18:29,754 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 12:18:29,754 136    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 12:18:29,852 234    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 12:18:30,030 412    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 16815450.
+2018-09-14 12:18:30,030 412    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@100955a]
+2018-09-14 12:18:30,032 414    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==>  Preparing: select * from user 
+2018-09-14 12:18:30,059 441    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==> Parameters: 
+2018-09-14 12:18:30,078 460    [           main] DEBUG eima.mapper.UserMapper.findAll  - <==      Total: 8
+2018-09-14 12:18:30,079 461    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@100955a]
+2018-09-14 12:18:30,079 461    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@100955a]
+2018-09-14 12:18:30,079 461    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 16815450 to pool.
+2018-09-14 12:23:40,389 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:23:40,475 86     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:23:40,475 86     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:23:40,476 87     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:23:40,476 87     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:23:40,477 88     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:23:40,478 89     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:23:40,478 89     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:23:40,512 123    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:23:40,513 124    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:23:40,513 124    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:23:40,513 124    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:23:40,513 124    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:23:40,513 124    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:23:40,513 124    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:23:40,514 125    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:23:40,514 125    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:23:40,514 125    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:23:40,516 127    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:23:40,540 151    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:23:40,540 151    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:23:40,541 152    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:23:40,541 152    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:23:40,542 153    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:23:40,542 153    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:23:40,543 154    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 12:23:40,543 154    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 12:23:40,543 154    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:23:40,543 154    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:23:40,543 154    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:23:40,544 155    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; 
+2018-09-14 12:23:40,544 155    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:23:40,544 155    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:23:40,545 156    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 12:23:40,545 156    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 12:23:40,654 265    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 12:23:40,829 440    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 11866710.
+2018-09-14 12:23:40,829 440    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b51256]
+2018-09-14 12:23:40,831 442    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==>  Preparing: select * from user 
+2018-09-14 12:23:40,849 460    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==> Parameters: 
+2018-09-14 12:23:40,871 482    [           main] DEBUG eima.mapper.UserMapper.findAll  - <==      Total: 8
+2018-09-14 12:23:40,872 483    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b51256]
+2018-09-14 12:23:40,872 483    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@b51256]
+2018-09-14 12:23:40,872 483    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 11866710 to pool.
+2018-09-14 12:24:25,371 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:24:25,442 72     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:24:25,442 72     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:24:25,443 73     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:24:25,443 73     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:24:25,444 74     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:24:25,444 74     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:24:25,445 75     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:24:25,475 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:24:25,475 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:24:25,475 105    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:24:25,476 106    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:24:25,476 106    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:24:25,476 106    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:24:25,476 106    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:24:25,476 106    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:24:25,476 106    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:24:25,477 107    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:24:25,478 108    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:24:25,503 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:24:25,503 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:24:25,503 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:24:25,503 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:24:25,505 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:24:25,505 135    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:24:25,506 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 12:24:25,506 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 12:24:25,506 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:24:25,506 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:24:25,506 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:24:25,506 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; 
+2018-09-14 12:24:25,506 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:24:25,506 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:24:25,507 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 12:24:25,507 137    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 12:24:25,605 235    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 12:24:25,798 428    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 11866710.
+2018-09-14 12:24:25,799 429    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b51256]
+2018-09-14 12:24:25,800 430    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==>  Preparing: select * from user 
+2018-09-14 12:24:25,828 458    [           main] DEBUG eima.mapper.UserMapper.findAll  - ==> Parameters: 
+2018-09-14 12:24:25,848 478    [           main] DEBUG eima.mapper.UserMapper.findAll  - <==      Total: 8
+2018-09-14 12:24:25,849 479    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b51256]
+2018-09-14 12:24:25,849 479    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@b51256]
+2018-09-14 12:24:25,849 479    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 11866710 to pool.
+2018-09-14 12:25:06,074 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-09-14 12:25:06,147 73     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-09-14 12:25:06,147 73     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-09-14 12:25:06,147 73     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-09-14 12:25:06,148 74     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-09-14 12:25:06,149 75     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-09-14 12:25:06,149 75     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:25:06,149 75     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:25:06,174 100    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVO.class
+2018-09-14 12:25:06,175 101    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2018-09-14 12:25:06,175 101    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain
+2018-09-14 12:25:06,175 101    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:25:06,175 101    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/QueryVO.class
+2018-09-14 12:25:06,175 101    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 %
+2018-09-14 12:25:06,175 101    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:25:06,176 102    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/domain/User.class
+2018-09-14 12:25:06,176 102    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4 2
+2018-09-14 12:25:06,176 102    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVO matches criteria [is assignable to Object]
+2018-09-14 12:25:06,177 103    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+2018-09-14 12:25:06,206 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:25:06,207 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:25:06,207 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:25:06,207 133    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-09-14 12:25:06,208 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:25:06,208 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:25:06,210 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.class
+2018-09-14 12:25:06,210 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserMapper.xml
+2018-09-14 12:25:06,210 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper
+2018-09-14 12:25:06,210 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:25:06,210 136    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.class
+2018-09-14 12:25:06,211 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   4    findAll ()Ljava/util/List; 	Signature -()Ljava/util/List<Lcom/itheima/domain/User;>; 
+2018-09-14 12:25:06,211 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:25:06,211 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/F:/ideaworkspace/project_63/mybatis_day02_4_config/target/classes/com/itheima/mapper/UserMapper.xml
+2018-09-14 12:25:06,212 138    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="utf-8" ?>
+2018-09-14 12:25:06,212 138    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.mapper.UserMapper matches criteria [is assignable to Object]
+2018-09-14 12:25:06,307 233    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-09-14 12:25:06,499 425    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 33288559.
+2018-09-14 12:25:06,499 425    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fbf16f]
+2018-09-14 12:25:06,501 427    [           main] DEBUG ima.mapper.UserMapper.findById  - ==>  Preparing: select * from user where _id = ? 
+2018-09-14 12:25:06,525 451    [           main] DEBUG ima.mapper.UserMapper.findById  - ==> Parameters: 1(Integer)
+2018-09-14 12:25:06,539 465    [           main] DEBUG ima.mapper.UserMapper.findById  - <==      Total: 1
+2018-09-14 12:25:06,540 466    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fbf16f]
+2018-09-14 12:25:06,541 467    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1fbf16f]
+2018-09-14 12:25:06,541 467    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 33288559 to pool.

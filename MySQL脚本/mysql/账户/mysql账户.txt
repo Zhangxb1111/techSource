@@ -1,0 +1,16 @@
+use mysql;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.1.100' IDENTIFIED BY 'password';
+-- WITH GRANT OPTION;
+flush privileges;
+select host, user from user;
+-- 本地root账户拥有所有权限。
+-- qdqgalltables拥有对qdqg数据库所有权限。
+-- user拥有对qdqg数据库st_result_1000010301_his、st_result_1000010302_his表的所有权限。
+
+use mysql;
+GRANT INSERT,DELETE,UPDATE,SELECT ON qdqg.ST_RESULT_1000010301 TO 'user'@'%' IDENTIFIED BY 'user' WITH GRANT OPTION;
+flush privileges;
+select host, user from user;
+SHOW GRANTS for user;
+-- DROP user user@'%';
+-- SELECT host,user from user;

@@ -1,0 +1,38 @@
+#随便启动一个nginx实例，目的微课复制出配置
+docker run -p 80:80 --name nginx -d nginx:1.10.0
+
+#将容器内的配置文件拷贝到当前目录：
+docker container cp nginx:/etc/nginx .
+#修改文件名称：
+mv nginx conf /mydata/nginx
+#终止原容器：
+docker stop nginx
+#删除原容器
+docker rm containerId
+
+#创建新的nginx
+docker run -p 80:80 --name nginx\
+ -v /mydata/nginx/html:/usr/share/nginx/html\
+ -v /mydata/nginx/logs:/var/log/nginx\
+ -v /mydata/nginx/conf:/etc/nginx\
+ -d nginx:1.10.0
+ 
+docker pull rabbitmq:3.8-management
+docker run -p 5672:5672 -p 15672:15672 --name rabbitmq\
+ -v /mydata/rabbitmq/etc:/etc/rabbitmq\
+ -v /mydata/rabbitmq/lib:/var/lib/rabbitmq\
+ -v /mydata/rabbitmq/log:/var/log/rabbitmq\
+ -d rabbitmq:3.8-management
+ 
+docker run -it –name rabbitmq\
+ -v /mydata/rabbitmq/etc:/etc/rabbitmq\
+ -v /mydata/rabbitmq/lib:/var/lib/rabbitmq\
+ -v /mydata/rabbitmq/log:/var/log/rabbitmq\
+ -p 1884:1883 -p 5673:5672 -p 15673:15672 -p 25673:25672 -p 61614:61613\
+ -d rabbitmq:latest
+
+docker pull openzipkin/zipkin
+docker run -d -p 9411:9411 --name zipkin --env STORAGE_TYPE=elasticsearch --env ES_HOSTS=192.168.56.10:9200 openzipkin/zipkin
+生产环境(数据推荐使用改版的zipkin保存到es):
+docker pull openzipkin/zipkin-dependencies:2.4
+docker run -p 9411:9411 --name zipkin-dependencies --env STORAGE_TYPE=elasticsearch --env ES_HOSTS=192.168.56.10:9200 --env ES_INDEX=zipkin -d openzipkin/zipkin-dependencies:2.4

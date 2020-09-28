@@ -1,0 +1,6 @@
+ <!-- 开启延迟加载 -->
+        <setting name="lazyLoadingEnabled" value="${setting.lazyLoadingEnabled}" />
+        <!-- 关闭立即加载 -->
+        <setting name="aggressiveLazyLoading" value="${setting.aggressiveLazyLoading}" />
+        <!-- 设定tostring方法延迟加载 -->
+        <setting name="lazyLoadTriggerMethods" value="${setting.lazyLoadTriggerMethods}" />

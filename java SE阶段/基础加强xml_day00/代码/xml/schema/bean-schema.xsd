@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	传智播客Schema教学实例文档。
+	模拟spring规范，如果开发人员需要在xml使用当前Schema约束，必须包括指定命名空间。
+	格式如下：
+	<beans xmlns="http://www.itcast.cn/bean"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.itcast.cn/bean bean-schema.xsd"
+	>
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.itcast.cn/bean"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:tns="http://www.itcast.cn/bean"
+        elementFormDefault="qualified">
+    <!-- 声明根标签 -->
+    <!--出现的第一个 代表 根元素
+        name 属性代表 标签名
+     -->
+    <element name="beans">
+        <!--
+            complexType 复杂类型
+            simpleType 简单类型
+        -->
+        <complexType>
+            <!--
+               choice  选择   () 默认是 无序
+               sequence 顺序关系  ,
+
+                   minOccurs 最少出现次数
+                   maxOccurs 最多出现次数
+                       unbounded 没有边界
+            -->
+            <choice minOccurs="0" maxOccurs="unbounded">
+                <!-- 子元素 bean-->
+                <element name="bean">
+                    <complexType>
+                        <!--顺序  -->
+                        <sequence minOccurs="0" maxOccurs="unbounded">
+
+                            <element name="property">
+                                <complexType>
+                                    <attribute name="name" use="required"></attribute>
+                                    <attribute name="value" use="required"></attribute>
+                                </complexType>
+                            </element>
+                        </sequence>
+                        <!--
+                           attribute 外层element的属性
+
+                              required  必须
+                              optional  可选
+                        -->
+                        <attribute name="id" use="required"></attribute>
+                        <attribute name="className" use="required"></attribute>
+                    </complexType>
+                </element>
+                <element name="import">
+                    <complexType>
+                        <attribute name="resource" use="required"></attribute>
+                    </complexType>
+                </element>
+            </choice>
+        </complexType>
+    </element>
+</schema>

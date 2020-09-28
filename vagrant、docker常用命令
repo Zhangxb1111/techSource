@@ -1,0 +1,63 @@
+Vagrant常用命令：
+
+#显示当前版本
+vagrant --version
+
+#列出所有的Box
+vagrant box list
+
+#vagrant启动命令
+vagrant up
+
+#vagrant连接虚拟机
+vagrant ssh
+
+#初始化一个新的VM
+vagrant init centos/7
+
+#关闭vagrant
+vagrant halt
+
+#销毁VM
+vagrant destory [name|id]
+
+
+
+Docker常用命令：
+
+#https://hub.docker.com/  镜像工厂，可以在线搜索需要下载的镜像及版本
+
+#下载docker镜像
+docker pull redis:
+
+#查看docker容器
+docker ps
+
+#创建并运行docker容器
+docker run
+sudo docker run -p 3306:3306 --name mysql -v /mydata/mysql/log:/var/log/mysql -v /mydata/mysql/data:/var/lib/mysql -v /mydata/mysql/conf:/etc/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
+docker run -p 6379:6379 --name redis -v /mydata/redis/data:/data -v /mydata/redis/conf/redis.conf:/etc/redis/redis.conf -d redis redis-server /etc/redis/redis.conf
+
+#查看docker镜像
+docker images
+
+#删除镜像
+docker rmi [image]
+docker image rm [image]
+
+#进入容器内部 (-it为以交互模式，容器id使用 docker ps 命令查看,/bin/bash 是直接进控制台，redis-cli直接进客户端)
+docker exec -it 容器id或容器名称 /bin/bash
+docker exec -it redis redis-cli
+
+#重启容器(mysql为容器名)
+docker restart mysql
+
+#docker随虚拟机启动而启动
+docker update redis --restart=always
+
+#查看某容器日志
+docker logs container name
+
+
+zhexiClient install  C:\Users\admin\Downloads
+CSClient.exe install --token 4O2Twb --address cloud.zhexi.tech

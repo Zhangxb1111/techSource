@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.itheima"></context:component-scan>
+
+    <!--创建日志对象：通知对象-->
+    <bean id="sysLog" class="com.itheima.config.SysLog"></bean>
+
+    <!-- 配置aop-->
+    <aop:config>
+        <!--配置切面-->
+        <aop:aspect id="aspect" ref="sysLog">
+            <!--切入点的配置-->
+            <!--
+                execution 表达式
+                * com.itheima.service..*.*(..)
+                第一个*：任意返回值
+                第二个* ：任意类
+                包重点的两个连续的点：包及子包下的所有的
+                第三个*：所有的方法
+                括号中的点：任意参数
+            -->
+            <aop:pointcut id="cut" expression="execution(* com.itheima.servcie.impl.*.*(..))"></aop:pointcut>
+            <!--在之前执行的方法-->
+            <!--<aop:before method="methodBefore" pointcut-ref="cut"></aop:before>-->
+            <!--<aop:after-returning method="methodReturningAfter" pointcut-ref="cut"></aop:after-returning>-->
+            <!--<aop:after method="methodAfter" pointcut-ref="cut"></aop:after>-->
+            <!--<aop:after-throwing method="throwing" pointcut-ref="cut"></aop:after-throwing>-->
+            <aop:around method="around" pointcut-ref="cut"></aop:around>
+        </aop:aspect>
+    </aop:config>
+
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+</beans>

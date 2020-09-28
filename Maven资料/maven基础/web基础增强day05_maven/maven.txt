@@ -1,0 +1,103 @@
+
+插件的依赖
+
+<build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+
+
+
+<plugin>
+    <groupId>org.apache.tomcat.maven</groupId>
+    <artifactId>tomcat7-maven-plugin</artifactId>
+    <version>2.1</version>
+    <configuration>
+        <port>8080</port>
+        <server>tomcat7</server>
+    </configuration>
+</plugin>
+
+
+
+--------------jar包依赖 ------------------
+
+项目要使用到 很多第三方的jar包 
+
+ 使用者---JDK----第三方的 redis  mysql  spring
+
+maven 就是管理第三方的jar包的
+
+把我们常用的jar包  
+   中央仓库中  网络地址
+   自己配置到 本地仓库中  
+
+   本地仓库中应该有 这个jar包  
+
+   只是 罗列常用的jar包 
+
+项目中要使用jar包的时候 
+
+先完成 配置操作   
+     我要的jar包的坐标 告诉 maven工程 
+
+     maven工程 会去我们的本仓库中 找对应的jar
+     通过 那三个坐标    公司名称---项目名---版本---
+
+     如果在本地找不到   中央仓库(远程仓库) ----找 ---下载到本地仓库
+
+     找到了就能导入项目中
+
+     Junit
+        单元测试包
+
+<dependencies>   依赖来源
+    <dependency>  第一个依赖
+      <groupId>junit</groupId>  公司
+      <artifactId>junit</artifactId>  项目
+      <version>4.11</version>  版本
+      <scope>test</scope> 范围
+    </dependency>
+  </dependencies>
+
+导入servlet的依赖
+
+   找到<dependencies>   依赖来源
+   里面创建 
+     一个新的依赖 
+
+
+
+
+
+
+public interface Animal{
+     
+     void eat();
+
+     void sleep();
+}
+
+public class Cat{
+    
+    eat(){
+       用到了一些jar
+    }
+}
+
+
+public void Test{
+
+    public void  feedAnimal(Animal a){
+       a.eat();
+       a.sleep();
+    }
+}
+
+
+main(){
+    
+    
+    new Test(new Cat());
+}
+
+

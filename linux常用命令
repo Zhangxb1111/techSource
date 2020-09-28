@@ -1,0 +1,47 @@
+性能评估常用命令
+linux优秀网址：https://git.io/linux
+1、整机：top  (uptime 是 top的精简版)
+top - 13:37:10 up 5 min,  1 user,  load average: 1.77, 3.10, 1.63
+Tasks: 111 total,   1 running, 110 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 22.0 us,  4.1 sy,  0.0 ni, 73.6 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st
+KiB Mem :  2914284 total,   328320 free,  1583356 used,  1002608 buff/cache
+KiB Swap:  2097148 total,  2097148 free,        0 used.  1143212 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND                                                         
+ 1285 vagrant   20   0 2663084 277152  22228 S 48.7  9.5   0:53.70 java                                                              
+ 1424 vagrant   20   0 1758232 397200  21120 R 41.7 13.6   0:55.52 node                                                              
+  593 root      20   0  616532  78788  27656 S  0.7  2.7   0:01.94 dockerd                                                           
+ 1102 root      20   0  109096   9240   2828 S  0.7  0.3   0:00.22 containerd-shim                                                   
+ 1193 vagrant   20   0 2772600 184120  13364 S  0.7  6.3   0:28.35 java
+
+load average: 1.77, 3.10, 1.63   平均值代表系统平均负载值，如果大于60%，代表系统负载高。
+
+2、CPU：vmstat
+	查看CPU（包含不限于）：vmstat -n 2 3  ###两秒查看一次 查看三条
+	查看额外 	
+			查看所有cpu核信息    ###mpstat -P ALL 2  ###两秒查看一次所有进程    idle值越高越好
+			每个进程使用CPU的用量分解信息   ###pidstat -u 1 -p 进程编号
+3、内存：free   (>70%较好   <20%不好)
+常用  free -m  ###兆字节
+pidstat -p 进程号  -r  采样间隔秒数    ###mem百分比大于1%不合适
+4、硬盘：df
+df -h     ###查看磁盘剩余空间数
+5、磁盘IO：iostat
+	性能评估：iostat -xdk 2 3
+	查看额外：pidstat -d 采样间隔秒数 -p 进程号
+6、网络：ifstat
+	没有需要下载  wget http://
+	ifstat l 
+
+生产环境cpu占用过高分析
+	步骤：
+	1、top 查找CPU占用高的进程pid
+	2、ps -ef|grep java|grep -v grep 或 jps -l
+	3、定位到具体线程或者代码
+			ps -mp 进程pid -o THREAD,tid,time    ###找出占用CPU高的tid
+	4、线程id转换为16进制格式（英文小写格式）     
+		printf "%x\n" 有问题的线程id
+	5、jstack 进程id |grep tid(16进制线程ID小写英文) -A60   ###打印出前60行
+	
+	
+	

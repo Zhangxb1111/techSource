@@ -1,0 +1,44 @@
+能够使用Function函数式接口
+	apply 接收一个参数，返回一个结果
+	andThen 合并两个Function对象，有先后顺序
+能够使用Predicate函数式接口
+	test 判断一个参数是否满足要求
+	and： 合并，是并且的关系
+	or： 合并， 是或者的关系
+	negate：　非
+能够理解流与集合相比的优点
+	流操作简单，　关注的是做什么而不是怎么做。
+能够理解流的延迟执行特点
+	streamA.filter(Lambda表达式).foreach(Lambda表达)
+能够通过集合、映射或数组获取流
+	1. 集合.stream()
+	2. Map集合。 先获取对应的key的集合， value的集合， entry的集合，然后再获取Stream
+	3. 数组 Stream.of(数组)
+能够掌握常用的流操作
+	filter
+	limit
+	skip
+	map
+	concat
+	
+	foreach
+	count
+能够使用流进行并发操作
+	获取并发流
+		1. 使用普通流对象调用
+            parallel?()： 获取对应的并发流
+
+        2. 通过集合对象调用方法获取
+            default Stream<E> parallelStream?() ：直接获取一个并发流
+能够将流中的内容收集到集合中
+	流对象.collect(Collectors.toList());
+能够将流中的内容收集到数组中
+	流对象.toArray()
+	如果要得到具体的数组类型
+	流对象.toArray(数组的构造器引用)
+	
+重点：
+	1. 两个函数式接口
+	2. Stream流的获取方式
+	3. Stream流的7个方法
+	4. 将数据收集到流中

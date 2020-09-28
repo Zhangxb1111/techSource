@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 框架设置 -->
+    <settings>
+        <!-- 开启延迟加载 -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!-- 关闭立即加载 -->
+        <setting name="aggressiveLazyLoading" value="true"/>
+        <!-- 设置开启二级缓存 -->
+        <setting name="cacheEnabled" value="true"/>
+        <!-- 打印SQL语句 -->
+        <setting name="logImpl" value="log4j"/>
+    </settings>
+    <!-- 添加别名 -->
+    <typeAliases>
+        <package name="com.itheima.domain"/>
+    </typeAliases>
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
+    </plugins>
+</configuration>

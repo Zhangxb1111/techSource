@@ -1,0 +1,11 @@
+1. / : 拦截所有的请求包括资源
+   /*: 拦截所有的请求
+   *.do：拦截后缀为.do的请求 ， 基于strurts2
+   *.action
+2. xxxxx/account/findAll
+   
+  redirect:test   --->xxxxx/account/test
+  redirect:/test --xxxxx/test
+3.
+
+	

@@ -1,0 +1,10 @@
+CREATE TABLE student(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	`name` VARCHAR(20), 
+	address VARCHAR(20)
+);
+INSERT TABLE student(`name`,address)VALUES(NULL,'中国');
+DROP TABLE student;
+ALTER TABLE student MODIFY `name` VARCHAR(20)NOT NULL;
+
+ALTER TABLE student MODIFY `name` VARCHAR(20);

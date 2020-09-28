@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
+    <!--<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
+        <!--<property name="driverClass" value=""></property>-->
+        <!--<property name="jdbcUrl" value=""></property>-->
+        <!--<property name="user" value=""></property>-->
+        <!--<property name="password" value=""></property>-->
+    <!--</bean>-->
+    <!--<bean id="dataSource2" class="org.apache.commons.dbcp.BasicDataSource">-->
+        <!--<property name="url" value=""></property>-->
+        <!--<property name="driverClassName" value=""></property>-->
+        <!--<property name="username" value=""></property>-->
+        <!--<property name="password" value=""></property>-->
+    <!--</bean>-->
+
+    <!--配置事务管理器-->
+    <!--注入dataSource
+          事务 - Connection - 数据源中  -->
+    <bean id="txManger" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--通知增强-->
+    <tx:advice id="txAdvice" transaction-manager="txManger">
+        <tx:attributes>
+            <!--在执行哪些方法时需要通知事务执行-->
+            <!--propagation:传播属性, 默认值：REQUIRED，可以不配-->
+            <!--readOnly：默认值：false-->
+            <!-- REQUIRED :必须是使用事务，如果没有事务，开启事务执行-->
+            <!-- SUPPORTS: 如果有事务，就事务执行，如果没有事务，不是事务-->
+            <!--isolation ：设置隔离级别，一般使用数据库默认的隔离级别，可以不配-->
+            <!--<tx:method name="insert*"/>-->
+            <!--<tx:method name="update*" />-->
+            <!--<tx:method name="delete*" />-->
+            <!--<tx:method name="del*"/>-->
+            <!--<tx:method name="add*"/>-->
+            <!--<tx:method name="find*" propagation="SUPPORTS" read-only="true"></tx:method>-->
+            <!--<tx:method name="select*"  propagation="SUPPORTS" read-only="true"></tx:method>-->
+            <!--<tx:method name="get*"  propagation="SUPPORTS"  read-only="true"></tx:method>-->
+            <tx:method name="find*" read-only="true" propagation="SUPPORTS"></tx:method>
+            <tx:method name="get*" read-only="true" propagation="SUPPORTS"></tx:method>
+            <tx:method name="select*" read-only="true" propagation="SUPPORTS"></tx:method>
+            <!--其他的方法都必须使用事务-->
+            <tx:method name="*"></tx:method>
+        </tx:attributes>
+    </tx:advice>
+    <!--aop配置-->
+    <aop:config>
+        <!--配置切入点-->
+        <!--<aop:pointcut id="pointcut" expression="execution(* com.itheima.service..*.*(..))"></aop:pointcut>-->
+        <!--&lt;!&ndash;织入&ndash;&gt;-->
+        <!--<aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut"></aop:advisor>-->
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* com.itheima.service..*.*(..))"></aop:advisor>
+    </aop:config>
+
+
+
+    <bean id="accountDao" class="com.itheima.dao.impl.AccountDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate"></property>
+    </bean>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="url" value="${jdbc.url}"></property>
+        <property name="driverClassName" value="${jdbc.driver}"></property>
+        <property name="username" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+
+    <!--引入jdbc的属性配置-->
+    <context:property-placeholder location="classpath:db.properties"></context:property-placeholder>
+
+    <!--扫描表创建bean对象-->
+    <context:component-scan base-package="com.itheima"></context:component-scan>
+</beans>

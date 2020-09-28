@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.sun.tools.visualvm.heapviewer/0">
+    <module_version install_time="1524660428431" last="true" origin="installer" specification_version="1.0">
+        <file crc="1818578166" name="config/Modules/com-sun-tools-visualvm-heapviewer.xml"/>
+        <file crc="2210685921" name="modules/com-sun-tools-visualvm-heapviewer.jar"/>
+    </module_version>
+</module>

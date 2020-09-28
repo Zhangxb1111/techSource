@@ -1,0 +1,34 @@
+github
+
+
+1、in关键词限制搜索范围
+*公式: xxx关键词 in:name 或description或readme
+xxx in:name项目名包含xxx的
+xxx in:description 项目描述包含xxx的
+xxx in:readme 项目的readme文件中包含xxx的
+*组合使用
+关键词 in:name,readme
+
+2、stars或fork数量关键词去查找
+公式：
+2.1.1 xxx关键词 stars通配符          ###  :>或者:>=
+2.1.2 区间范围数字                   ###数字1..数字2 
+	查找stars数大于等于5000的springboot项目
+	查找forks数大于500的springboot项目
+  2.2 组合使用
+		springboot stars:5000..8000 forks:6000..8000
+3、awesome加强搜索
+	公式: awesome 关键字   ###awesome系列一般是用来收集学习、工具、书籍类相关的项目
+    搜索优秀的redis相关的项目，包括框架、教程等  例:awesome redis		
+4、高亮显示，某一行代码
+#L数字	公式：1行    地址后面紧跟#L数字
+		  多行   地址后面紧跟#L数字-L数字2    例：#L13-L23
+5、项目内搜索
+	英文t
+	github某仓库链接下  按下字母t可快速罗列所有文件
+	GitHub快捷键帮助文档:https://help.github.com/en/articles/using-keyboard-shortcuts
+6、搜索某个地区内的大佬
+	公式    location:地区
+			language:语言
+	地区北京的java方向的用户  location:beijing language:java
+

@@ -1,0 +1,48 @@
+#消防正常数据一天删除一次
+#查看当前是否已开启事件调度器
+show variables like 'event_scheduler';
+#要想保证能够执行event事件，就必须保证定时器是开启状态，默认为关闭状态
+set global event_scheduler =1;
+# 选择库
+use qdqg;
+drop event if exists fiDelEveDay
+delimiter $$
+create event fiDelEveDay
+on schedule every 1 DAY starts NOW()
+do
+begin
+    CALL fi_pro();
+end
+$$
+
+#函数
+DROP PROCEDURE IF EXISTS fi_pro
+#创建存储过程
+delimiter $$
+  CREATE PROCEDURE fi_pro()
+    BEGIN
+      DELETE FROM fi_eq_state WHERE DeviceValue LIKE '0';
+    END
+    $$
+
+
+#三个月清空一次所有数据
+drop event if exists fiDelAll
+delimiter $$
+create event fiDelAll
+on schedule every 3 MONTH starts NOW()
+do
+begin
+    CALL fiDelAll();
+end
+$$
+
+#函数
+DROP PROCEDURE IF EXISTS fiDelAll
+#创建存储过程
+delimiter $$
+  CREATE PROCEDURE fiDelAll()
+    BEGIN
+     DELETE FROM FI_EQ_STATE where 1=1;
+   END
+    $$

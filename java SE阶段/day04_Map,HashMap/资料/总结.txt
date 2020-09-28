@@ -1,0 +1,31 @@
+能够说出Map集合特点
+	Map集合中每一个元素都是以键值对的形式存在的。
+	一个键对应（映射）一个值
+	Map集合中键不能重复，值可以重复。
+	
+使用Map集合添加方法保存数据
+	put(键, 值);  向map集合中添加数据。 如果添加的时候键已经存在了，那么就会覆盖。
+	
+使用”键找值”的方式遍历Map集合
+	keySet方法
+	
+	for(String key : map.keySet()) {
+		sout(key + "--" + map.get(key));
+	}
+	
+	
+使用”键值对”的方式遍历Map集合
+	entrySet方法遍历Map集合.
+	
+	Set<Map.Entry<String, String>> set = map.entrySet();
+	
+	for(Map.Entry<String, String> entry : set) {
+		sout(entry.getKey() + "--" + entry.getValue());
+	}
+	
+能够使用HashMap存储自定义键值对的数据
+	使用Map集合把Studnet对象当做key。
+	如果要保证唯一性，比如两个学生对象的属性相同就当成是同一个对象。 那么此时要重写hashCode和equals
+	
+能够使用HashMap编写斗地主洗牌发牌案例
+	练习...

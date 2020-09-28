@@ -1,0 +1,39 @@
+1. springMVC 介绍
+
+2. springMVC的入门
+	a.引入jar包
+	     spring-context     spring-webmvc
+	b. 配置spring-mvc .xml
+	    <componen:scan base-package="">
+	    视图解析器：前缀和后缀
+	c. web.xml
+	    前端控制器:DispatcherServlet,指定springmvc的路径 ， url-pattern= /(拦截所有的请求，包括静态资源css，js		，img)   *.action   *.do
+	d. 创建处理器（XXXXXController）
+		@Controller
+		@RequestMapping("/")
+		class ClazzName
+
+		@RequestMapping("/")
+		public void method
+3. 参数的映射
+	简单类型： 参数名和表单中的name一致
+		如果不一致：@RequestParam("") 映射
+	pojo类型：对象中属性名域表单中name一致
+	pojo类型中属性为pojo类型：  表单中的name: 属性名.属性名
+	数组类型：如果在表单中使用的checkbox：使用数组类型接收，checkbox的name必须与数组名一致
+	list,map
+4. String to  Date
+	自定义类型转换器
+	Converter<S ,T > 
+5. 编码过滤器
+	在web.xml 中配置
+	CharacterEncodingFilter ,参数encoding=utf-8
+6. serveltAPI
+	在Controller中的方法参数中可以声明：HttpServletRequest request，HttpServletResponse response
+	
+
+
+
+
+
+

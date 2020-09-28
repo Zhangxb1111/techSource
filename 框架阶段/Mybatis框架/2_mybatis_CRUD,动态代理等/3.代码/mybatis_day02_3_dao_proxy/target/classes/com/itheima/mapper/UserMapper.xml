@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    使用的代理模式开发
+        namespace 必须对应接口的全类名
+-->
+<mapper namespace="com.itheima.mapper.UserMapper">
+    <!--
+        代理模式开发：
+            id:必须对应接口中方法名
+            resultType:必须对应方法的返回值类型
+    -->
+    <select id="findAll" resultType="com.itheima.domain.User">
+        select * from user
+    </select>
+    <!--
+            代理模式开发：
+                id:必须对应接口中方法名
+                resultType:必须对应方法的返回值类型
+                parameterType：必须对应方法的参数类型
+        -->
+    <select id="findById" resultType="com.itheima.domain.User" parameterType="int">
+        select * from user where id = #{a}
+    </select>
+</mapper>

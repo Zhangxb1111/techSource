@@ -1,0 +1,12 @@
+1. 什么是spring, spring 的模块
+
+2. spring的ioc，依赖注入
+
+3. spring 的bean对象的生命周期
+	init-method    destroy-method
+4. spring bean的作用范围
+	singleton  prototype， requst ,session , golbal session 
+6. 单例模式的安全问题
+
+7. @Autowired ，@Resource
+

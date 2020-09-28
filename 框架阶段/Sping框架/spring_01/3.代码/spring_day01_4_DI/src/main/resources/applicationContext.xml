@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- xmlns="http://www.springframework.org/schema/beans" 名称空间 -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--使用的是空的构造方法-->
+    <!--<bean id="user" class="com.itheima.domain.User">-->
+        <!--property： 给对象中的属性赋值： 基于set方法  ， 在注入时， 会查找setUsername-->
+        <!--
+            name: 是对象中的属性名
+            value:给对象中的属性赋值
+            ref: 关联的对象
+        -->
+        <!--<property name="username" value="张三"></property>-->
+        <!--<property name="id" value="2"></property>-->
+        <!--<property name="birthday" ref="birthday"></property>-->
+    <!--</bean>-->
+
+    <bean id="birthday" class="java.util.Date"></bean>
+
+    <!--通过构造方法注入-->
+    <!--<bean id="user" class="com.itheima.domain.User">-->
+        <!--&lt;!&ndash;-->
+            <!--constructor-arg：构造器的参数配置-->
+            <!--name :根据参数名注入-->
+            <!--index:根据索引注入属性的值-->
+            <!--type： 根据类型注入属性值-->
+            <!--value:参数具体的值-->
+        <!--&ndash;&gt;-->
+        <!--<constructor-arg type="java.lang.String" value="李四"></constructor-arg>-->
+        <!--<constructor-arg type="java.lang.Integer" value="2"></constructor-arg>-->
+        <!--<constructor-arg type="java.util.Date" ref="birthday"></constructor-arg>-->
+        <!--&lt;!&ndash;<constructor-arg index="0" value="李四"></constructor-arg>&ndash;&gt;-->
+        <!--&lt;!&ndash;<constructor-arg index="1" value="1"></constructor-arg>&ndash;&gt;-->
+        <!--&lt;!&ndash;<constructor-arg index="2" ref="birthday"></constructor-arg>&ndash;&gt;-->
+        <!--&lt;!&ndash;<constructor-arg name="id" value="1"></constructor-arg>&ndash;&gt;-->
+        <!--&lt;!&ndash;<constructor-arg name="username" value="李四"></constructor-arg>&ndash;&gt;-->
+        <!--&lt;!&ndash;<constructor-arg name="birthday" ref="birthday"></constructor-arg>&ndash;&gt;-->
+        <!---->
+    <!--</bean>-->
+    <!--xmlns:p="http://www.springframework.org/schema/p"   名称空间-->
+    <!--基于set方法-->
+    <!--
+        p:username="李四"   给对象中的username赋值
+        p:id="3"            给对象中的id赋值
+        p:birthday-ref="birthday"  给对象中的birthday属性赋值  ，因为是pojo对象，所以关联birthday 对象
+    -->
+    <!--<bean id="user" class="com.itheima.domain.User" p:username="李四" p:id="3" p:birthday-ref="birthday"></bean>-->
+
+    <bean id="user" class="com.itheima.domain.User">
+        <property name="list">
+            <list>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王五</value>
+                <value>马六</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>王朝</value>
+                <value>马汉</value>
+            </set>
+        </property>
+        <property name="strs">
+            <array>
+                <value>张龙</value>
+                <value>赵虎</value>
+            </array>
+        </property>
+
+        <property name="properties">
+            <map>
+                <entry key="1" value="一"></entry>
+                <entry key="2" value="二"></entry>
+                <entry key="3" value="三"></entry>
+            </map>
+        </property>
+        <property name="map">
+            <props>
+                <prop key="4" >四</prop>
+                <prop key="5" >五</prop>
+                <prop key="6" >六</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

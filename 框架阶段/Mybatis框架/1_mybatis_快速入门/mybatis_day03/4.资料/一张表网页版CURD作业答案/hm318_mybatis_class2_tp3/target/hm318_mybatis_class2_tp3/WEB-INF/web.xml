@@ -1,0 +1,23 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>UserViewAction</servlet-name>
+    <servlet-class>com.itheima.web.UserViewAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserOperateAction</servlet-name>
+    <servlet-class>com.itheima.web.UserOperateAction</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserOperateAction</servlet-name>
+    <url-pattern>/UserOperateAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserViewAction</servlet-name>
+    <url-pattern>/UserViewAction</url-pattern>
+  </servlet-mapping>
+</web-app>

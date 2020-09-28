@@ -1,0 +1,67 @@
+mybatis第一天
+	能够了解什么是框架
+	理解自定义mybatis框架
+	掌握Mybatis框架开发快速入门
+mybatis第二天
+ 	掌握mybatis框架的基本CRUD操作
+	掌握mybatis的参数深入
+	掌握SqlMapConfig配置文件
+mybatis第三天
+	掌握mybatis的dao层开发
+	理解mybatis连接池的事务操作
+	掌握mybatis的动态sql
+	掌握mybatis多表关联查询
+mybatis第四天
+	掌握mybatis多对多关系
+	掌握mybatis的延迟加载
+	掌握mybatis的缓存
+	掌握mybatis的注解开发
+spring第一天
+	能够描述spring框架
+	能够理解spring的IOC的容器
+	能够编写spring的IOC的入门案例
+	能够说出spring的bean标签的配置
+	能够理解Bean的实例化方法
+	能够理解Bean的属性注入方法
+	能够理解复杂类型的属性注入
+spring第二天
+	能够编写spring的IOC的注解代码
+	能够编写spring使用注解实现组件扫描
+	能够说出spring的IOC的相关注解的含义
+	能够实现spring框架整合的Junit
+spring第三天
+	能够理解AOP的相关概念
+	能够说出AOP的相关术语的含义
+	能够应用aspectJ表达式语言
+	能够编写spring的aop中不同通知的代码
+	能够理解springAOP的注解
+spring第四天
+	能够使用spring的JDBC的模板
+	能够配置spring的连接池
+	能够使用jdbc模板完成增删改查的操作
+	能够说出两种编写Dao代码的区别
+	能够说出spring的事务管理的方法和常用接口
+	能够理解事务的传播行为
+	能够应用声明式事务
+	能够实现spring基于xml的IOC案例
+	能够实现spring基于注解的IOC案例
+	能够实现spring基于aop配置的事务控制案例
+	能够应用编程式事务
+springMVC第一天
+	介绍springMVC框架
+	能够实现springMVC的环境搭建
+	能够说出入门案例的执行过程
+	能够说出入门案例中设计的springMVC的常用组件
+	掌握requestMapper的使用
+	掌握springMVC的参数绑定
+	掌握springMVC的自定义类型转换器的使用
+springMVC第二天
+	掌握springMVC的常用注解
+	掌握controller的返回值使用
+	掌握Controller的转发和重定向使用
+	掌握springMVC与json的交互
+	掌握图片上传
+springMVC第三天
+	掌握springMVC的统一异常处理	
+	了解SpringMVC拦截器
+	掌握SSM整合

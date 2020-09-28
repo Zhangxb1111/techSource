@@ -1,0 +1,247 @@
+1、查看是否已安装某服务（mysql）
+rpm -qa | grep -i mysql
+2、卸载
+rpm -e mysql-libs-5.1.73-5.el6_6.x86_64 --nodeps
+2).上传mysql安装包
+alt+p 进入xftp----->put E:/test/xxx.tar
+3).解压安装包
+mkdir mysql
+tar -xvf xxx.tar -C  /root/mysql
+4).安装依赖包(第三方的依赖库)
+yum -y install libaio.so.1 libgcc_s.so.1 libstdc++.so.6 libncurses.so.5 --setopt=protected_multilib=false
+ yum update libstdc++-4.4.7-4.el6.x86_64
+5).安装mysql-client
+rpm -ivh MySQL-client-5.6.*****.rpm
+6).安装mysql-server
+rpm -ivh MySQL-server-5.6.******.rpm
+
+
+7).存储过程与函数语法
+1、declare num int default 10;
+set num = num+10;
+select count(*) into numm from city;
+2、if条件判断
+create procedure pro_test4()
+begin
+declare num int default 10;
+if 条件 then 操作 
+	elseif num>=170 and num<180 then set num=100;
+  	else
+end if;
+select concat('','') as str;
+end&
+3、传递参数
+create procedure pro_test5(in height int)
+begin
+declare desc varchar(50) default '175';
+if 条件 then 操作 
+	elseif height >=170 and height <180 then set height =100;
+  	else
+end if;
+select concat('','') as str;
+end&
+出参:
+create procedure pro_test6(in height int,out desc varchar)
+begin
+if 条件 then 操作 
+	elseif height >=170 and height <180 then set desc ='bbb';
+  	else set desc='aaa';
+end if;
+end&
+调用:call pro_test6(188,@desc);
+查询结果：select @desc; //注释@：用户的会话变量。本次数据库连接有效期间有效。
+@@desc：这种变量叫系统变量。
+4、case结构
+方式一：
+case case_value
+  when   case_value    then
+  when   case_value    then
+  else
+end case;
+方式二：
+case
+   when  search_condition     then
+   when  search_condition     then
+   else
+end case;
+create procedure pro_test8(n int)
+begin
+  case
+   when  n>=1 and n<=3     then
+   when  search_condition     then
+   else
+  end case;
+end$
+5、while循环
+while search_condition do
+    statement_list
+end while;
+
+create procedure pro_test8(n int)
+begin
+  declare total int default 0;
+  declare num int default 1;
+  while num<=n do
+     set total = total + num;
+     set num = num + 1;
+  end while;
+select total;
+end$
+6、repeat循环结构（满足条件推出循环）
+create procedure pro_test9(n int)
+begin
+   repeat
+      statement_list;
+      until condition
+   end repeat;
+end$
+满足until后的条件推出循环。
+********until 条件后面没有分号(;)******
+7、loop语句、leave语句
+实现简单循环，推出条件使用其他的语句定义，
+通常使用leave语句实现
+create procedure pro_test9(n int)
+begin
+   [begin_label:]loop
+   statement_list;
+   end loop[end label];
+end$
+例子：
+create procedure pro_test10(n int)
+begin
+   declare total int default 0;
+   c:loop
+   set total = total+n;
+   set n = n-1;
+
+   if n<=0 then
+      leave c;
+   end if;
+   end loop c;
+
+   select total;
+end$
+8、游标（存储查询的结果集的数据结构）
+在存储过程和函数中可以使用光标对结果集进行循环处理，
+光标的使用包括光标的声明、OPEN、FETCH和CLOSE
+声明光标：
+declare cursor_name CURSOR FOR select_statement;
+OPEN光标：
+OPEN cursor_name;
+FETCH光标：
+FETCH cursor_name INTO var_name [,var_name] ...
+CLOSE光标：
+CLOSE cursor_name;
+示例：
+create procedure pro_test11(n int)
+begin
+   declare e_id int(11);
+   declare e_name varchar(255);
+   declare e_age int(255);
+   declare e_salary int(255);
+   declare emp_result cursor for select ....;
+   
+   open emp_result;
+   
+   fetch emp_result into e_id,e_name,e_age,e_salary;
+   select concat('e_id=',e_id,'e_name=',e_name,'e_age=',e_age,'e_salary=',e_salary);
+   close emp_result;
+end$
+优化后：
+create procedure pro_test11(n int)
+begin
+   declare e_id int(11);
+   declare e_name varchar(255);
+   declare e_age int(255);
+   declare e_salary int(255);
+   declare has_data int default 1;
+
+   declare emp_result cursor for select ...;
+   declare EXIT HANDLER FOR NOT FOUND set has_data=0;//这句必须和游标声明之后
+
+   open emp_result;
+   
+   repeat
+      fetch emp_result into e_id,e_name,e_age,e_salary;
+      select concat('e_id=',e_id,'e_name=',e_name,'e_age=',e_age,'e_salary=',e_salary);
+      until has_data=0;
+   end repeat;
+   close emp_result;
+end$
+
+8).存储函数
+create function fun_name(paramter)
+returns type
+begin
+
+end
+例子：
+create function fun_name(countryId int)
+returns int
+begin
+   declare cnum int;
+   select count(*) into cnum from city where country_id = countryId;
+   return cnum;
+end
+
+9).触发器
+触发器类型       NEW和OLD的使用
+INSERT型触发器   NEW表示将要或者已经新增的数据
+UPDATE型触发器   OLD表示修改之前的数据，NEW表示将要或已经修改后的数据
+DELETE型触发器   OLD表示将要或者已经删除的数据
+
+语法结构：
+create trigger trigger_name
+before/after insert/update/delete
+on tlb_name
+[ for each row ]  -----行级触发器
+begin
+   trigger_statement;
+end
+例子：
+create trigger emp_insert_trigger
+after insert
+on emp
+for each row
+begin
+  insert into emp_log(id,operation,operation_time,operation_id,operation_params)
+  value(null,'insert',now(),new.id,concat('插入后(id:',new.id,'name:',new.name,'
+age:',new.age,'salary:',new.salary,')'));
+end$
+
+删除触发器：
+drop trigger trigger_name;
+
+查看触发器：
+show triggers \G;
+
+9、优化SQL
+9.1 查看SQL执行频率
+1）.针对数据库
+show status;展示的信息很多
+可以进行模糊匹配：show status like 'Com_____';
+以上是针对本次会话的，查询全局的加global。
+2）.针对innodb
+show global status like 'Innodb_rows_%';
+9.2 定位低效率执行SQL
+show processlist
+9.3explain分析执行计划
+explain sql语句;可以分析出sql语句的执行计划
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

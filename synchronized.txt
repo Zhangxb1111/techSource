@@ -1,0 +1,30 @@
+synchronized
+offset     size
+  0         4 
+  4         4
+  8         4
+  12        4
+1、对象组成（大小必须是8bit的整数倍）：
+     1.java对象的实例数据（对象属性）---不固定
+     2.对象头---固定
+     3.对齐填充
+2、对象头？对象第一个部分（所有对象公共部分64bit）
+3、java对象头组成（96bit/128bit）
+      1.Mark Word  64bit（固定）存储对象的hashcode、锁信息、分代年龄、GC标志等信息。
+      2.klass pointer/class Metadata Address 32bit/64bit（压缩或不压缩不固定）类型指针指向对象的类元数据，JVM通过这个指针确定该对象是哪个类的实例。
+
+
+4、对象状态
+      1.无状态 new出来时  1111
+      2.偏向锁            1000
+      3.轻量              1100
+      4.重量锁            0011
+      5.gc标记            0000
+
+ReentrantLock
+1.6前交替执行 synchronized关键字会调用os函数，os级别重量级锁
+lock是jdk级别
+1.6后交替执行 无区别，都是jdk级别
+
+
+

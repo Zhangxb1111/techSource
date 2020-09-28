@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.mapper.UserMapper">
+    <!-- id : 唯一的标识符-->
+    <!--resultTyep:返回值类型-->
+    <select id="findAll" resultType="com.itheima.domain.User">
+        select * from user
+    </select>
+
+    <!-- id : 唯一的标识符-->
+    <!--resultTyep:返回值类型-->
+    <!--parameterType:参数类型, 如果是简单类型（基本数据类型，String），写什么都可以 -->
+
+    <select id="findById" resultType="com.itheima.domain.User" parameterType="java.lang.Integer">
+        select * from user where id = ${value}
+    </select>
+    <!-- id : 唯一的标识符-->
+    <!--resultTyep:保存不存在此标签-->
+    <!--parameterType:参数类型
+        如果是pojo对象：写的是对象中的属性-->
+    <insert id="save" parameterType="com.itheima.domain.User">
+        <!--
+            selectKey:查询键值
+                属性：keyProperty：值对应的属性
+                    order: 在添加完之后查询id，返回
+                    resultType： 返回值类型
+                    select last_insert_id(): mysql中提供的一个函数，查询最后一次添加id
+
+        -->
+        <selectKey keyProperty="id" order="AFTER" resultType="int">
+          select last_insert_id()
+        </selectKey>
+        insert into user values(null ,#{username},#{address},#{birthday},#{sex})
+    </insert>
+    <!-- id : 唯一的标识符-->
+    <!--resultType:修改不存在此标签-->
+    <!--parameterType:参数类型
+        如果是pojo对象：写的是对象中的属性-->
+    <update id="update" parameterType="com.itheima.domain.User">
+      update user set username =#{username} , address=#{address} , sex = #{sex},birthday=#{birthday}
+      where id = #{id}
+    </update>
+
+    <!-- id : 唯一的标识符-->
+    <!--resultType:修改不存在此标签-->
+    <!--parameterType:参数类型-->
+    <delete id="delete" parameterType="int">
+        delete from user where id = #{i}
+    </delete>
+
+    <!--模糊查询
+        1. 如果 #{username } 传参时：%王%
+        2. 如果 "%"#{username}"%" 传参时  ： 王 ， Oracle 数据库不能写双引号，使用单引号
+        3. 如果 "%${value}%"  传参时  ： 王
+    -->
+    <!--
+        #{}: 相当于jdbc中占位符 ？ ，防注入
+        ${}： 字符串的直接拼接, 需要自己添加引号
+
+    -->
+    <select id="findByUsername" parameterType="java.lang.String" resultType="com.itheima.domain.User">
+      select * from user where username like "%"#{username}"%"
+    </select>
+
+</mapper>

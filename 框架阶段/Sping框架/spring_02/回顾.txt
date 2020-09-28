@@ -1,0 +1,6 @@
+1. spring 介绍
+	两大核心：IOC 容器   AOP:面向切面编程
+2. spring 的自定义IOC（了解）
+3. spring 的IOC的使用
+4. IOC的依赖注入（DI）
+5. DBUtils

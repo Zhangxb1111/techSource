@@ -1,0 +1,22 @@
+mkdir -p /mydata/elasticsearch/config
+mkdir -p /mydata/elasticsearch/data
+echo "http.host:0.0.0.0" >> /mydata/elasticsearch/config/elasticsearch.yml
+
+docker run --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e ES_JAVA_OPTS="-Xms64m -Xmx512m"\
+ -v /mydata/elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml\
+ -v /mydata/elasticsearch/data:/usr/share/elasticsearch/data\
+ -v /mydata/elasticsearch/plugins/:/usr/share/elasticsearch/plugins\
+ -d elasticsearch:7.4.2
+ 
+ 
+kibana
+docker run --name kibana -e ELASTICSEARCH_HOSTS=http://192.168.56.10:9200 -p 5601:5601\
+ -d kibana:7.4.2
+
+http://192.168.56.10:9200  为自己虚拟机的地址
+
+官方文档：https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+官方中文：https://www.elastic.co/guide/cn/elasticsearch/guide/current/foreword_id.html
+社区中文：
+https://es.xiaoleilu.com/index.html
+http://doc.codingdict.com/elasticsearch/0/

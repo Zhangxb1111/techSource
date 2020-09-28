@@ -1,0 +1,32 @@
+能够使用内连接进行多表查询
+	隐式内连接：
+		select * from 表A, 表B where 条件;
+	显式内连接：
+		select * from 表A inner join 表B on 条件;
+能够使用外连接进行多表查询
+	左外
+		select * from 表A left outer join 表B on 条件;
+		查询左表中所有的数据，以及右表中关联着的数据
+	右外
+能够使用子查询进行多表查询
+	子查询就是一个查询语句作为另一个查询语句的一部分
+能够理解JDBC的概念
+	jdbc就是java连接数据库的技术
+	
+	jdbc是java提供的一套接口，这套接口是一套规范，其他数据库想要使用java
+	则必须要在驱动中实现这些接口
+能够使用DriverManager类
+	DriverManager.registerDriver(new Dirver()); 注册驱动，会注册两次，不推荐
+	DriverManager.getConnection(url,username,password); 获取连接
+能够使用Connection接口
+	con.createStatement() 获取sql语句执行者对象
+能够使用Statement接口
+	st.executeUpdate(sql);执行增删改操作
+	st.executeQuery(sql);执行查询
+能够使用ResultSet接口
+	rs.next(); 把光标向下移动一行，并且判断有没有数据
+	rs.getXXx(列); 获取当前行指定列的数据。
+	
+重点：
+	1. JDBC
+	2. 多表查询

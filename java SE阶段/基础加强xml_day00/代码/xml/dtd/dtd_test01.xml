@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE beans SYSTEM "D:\shun63\xml\dtd\bean.dtd">
+<beans>
+    <bean id="" className="">
+        <property name="" value=""></property>
+    </bean>
+    <bean id="" className=""></bean>
+    <bean id="" className=""></bean>
+    <bean id="" className=""></bean>
+    <import resource=""></import>
+</beans>

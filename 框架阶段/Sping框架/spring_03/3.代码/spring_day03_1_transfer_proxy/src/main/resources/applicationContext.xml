@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+<!-- xmlns:context="http://www.springframework.org/schema/context" 名称空间-->
+    <!--
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd  约束-->
+    <bean id="queryRunner" class="org.apache.commons.dbutils.QueryRunner"> </bean>
+    <!--配置数据源-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+        <property name="driverClass" value="${jdbc.driverClass}"></property>
+        <property name="jdbcUrl" value="${jdbc.url}"></property>
+        <property name="user" value="${jdbc.user}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+    <!--引入属性文件-->
+    <context:property-placeholder location="db.properties"></context:property-placeholder>
+
+    <!-- 扫描包，创建bean对象 -->
+    <context:component-scan base-package="com.itheima"></context:component-scan>
+</beans>

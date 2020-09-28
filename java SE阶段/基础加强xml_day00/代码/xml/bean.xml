@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="001" className="cn.itcast.demo.User">
+        <property name="user" value="jack"></property>
+        <property name="pwd" value="rose"></property>
+    </bean>
+
+    <bean id="002" className="cn.itcast.demo.Student">
+        <property name="name" value="小明"></property>
+        <property name="sex" value="男"></property>
+    </bean>
+
+    <bean id="003" className="cn.itcast.demo.Worker">
+        <property name="name" value="skr"></property>
+        <property name="sex" value="男"></property>
+    </bean>
+</beans>

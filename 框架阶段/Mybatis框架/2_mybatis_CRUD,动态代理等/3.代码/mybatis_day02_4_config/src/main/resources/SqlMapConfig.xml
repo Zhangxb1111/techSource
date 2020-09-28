@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--
+    properties?,   可以引入外部的属性
+     settings?,    主配置信息：缓存，延迟加载
+     typeAliases?,  类型的别名
+     typeHandlers?,  注册类型匹配，一般不用操作
+
+     plugins?,   插件：分页插件
+     environments?,
+
+      mappers?)>
+
+
+    -->
+    <properties resource="jdbc.properties"></properties>
+    <!--别名操作-->
+    <typeAliases>
+        <!--注册单个的类的别名-->
+        <!--<typeAlias type="com.itheima.domain.User" alias="user"></typeAlias>-->
+        <!--对整个包中的类注册别名-->
+        <package name="com.itheima.domain"></package>
+    </typeAliases>
+    <!--配置jdbc 的开发环境 -->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <!-- ${ }  是ognl表达式（xml）  -->
+                <property name="driver" value="${jdbc.driver}" />
+                <property name="url" value="${jdbc.url}" />
+                <property name="username" value="${jdbc.username}" />
+                <property name="password" value="${jdbc.password}" />
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--
+        引入映射文件
+    -->
+	<mappers>
+        <!--映射的相对路径-->
+		<!--<mapper resource="com/itheima/mapper/UserMapper.xml"></mapper>-->
+        <!--引入接口的全类名： 必须保证映射配置文件和全类名一致-->
+        <!--<mapper class="com.itheima.mapper.UserMapper"></mapper>-->
+        <!-- 绝对路径加载配置文件-->
+        <!--<mapper url="F:\ideaworkspace\project_63\mybatis_day02_4_config\src\main\resources\com\itheima\mapper\UserMapper.xml"></mapper>-->
+
+        <!--引入接口所在的包： 必须保证映射配置文件和全类名一致-->
+        <package name="com.itheima.mapper"></package>
+    </mappers>
+</configuration>    

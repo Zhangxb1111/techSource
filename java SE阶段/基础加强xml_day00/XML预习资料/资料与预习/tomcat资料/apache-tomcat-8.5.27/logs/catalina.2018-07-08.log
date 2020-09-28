@@ -1,0 +1,282 @@
+08-Jul-2018 18:15:40.376 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+08-Jul-2018 18:15:40.382 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+08-Jul-2018 18:15:40.385 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+08-Jul-2018 18:15:40.387 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+08-Jul-2018 18:15:40.389 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+08-Jul-2018 18:15:40.391 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Jul-2018 18:15:40.392 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\develop\Java\jdk-10
+08-Jul-2018 18:15:40.394 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10+46
+08-Jul-2018 18:15:40.397 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            "Oracle Corporation"
+08-Jul-2018 18:15:40.399 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27
+08-Jul-2018 18:15:40.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27
+08-Jul-2018 18:15:40.404 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Jul-2018 18:15:40.406 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Jul-2018 18:15:40.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\logging.properties
+08-Jul-2018 18:15:40.411 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2018 18:15:40.414 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2018 18:15:40.418 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2018 18:15:40.423 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Jul-2018 18:15:40.425 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27
+08-Jul-2018 18:15:40.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27
+08-Jul-2018 18:15:40.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\temp
+08-Jul-2018 18:15:40.433 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+08-Jul-2018 18:15:40.435 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+08-Jul-2018 18:15:40.437 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Jul-2018 18:15:41.243 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+08-Jul-2018 18:15:41.285 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Jul-2018 18:15:41.418 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Jul-2018 18:15:41.427 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Jul-2018 18:15:41.430 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Jul-2018 18:15:41.432 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1610 ms
+08-Jul-2018 18:15:41.498 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Jul-2018 18:15:41.499 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+08-Jul-2018 18:15:41.525 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+08-Jul-2018 18:15:41.560 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+ java.io.IOException: 鍙傛暟閿欒銆?
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:432)
+	at java.base/java.io.File.getCanonicalPath(File.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:610)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+08-Jul-2018 18:15:41.569 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [43] ms
+08-Jul-2018 18:15:41.572 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\day40]
+08-Jul-2018 18:15:42.032 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\day40] has finished in [460] ms
+08-Jul-2018 18:15:42.035 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\docs]
+08-Jul-2018 18:15:42.057 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\docs] has finished in [23] ms
+08-Jul-2018 18:15:42.060 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\examples]
+08-Jul-2018 18:15:42.441 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\examples] has finished in [381] ms
+08-Jul-2018 18:15:42.443 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\host-manager]
+08-Jul-2018 18:15:42.477 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [33] ms
+08-Jul-2018 18:15:42.480 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\manager]
+08-Jul-2018 18:15:42.513 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\manager] has finished in [34] ms
+08-Jul-2018 18:15:42.517 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\ROOT]
+08-Jul-2018 18:15:42.543 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [26] ms
+08-Jul-2018 18:15:42.548 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2018 18:15:42.559 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Jul-2018 18:15:42.563 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1129 ms
+08-Jul-2018 18:15:52.549 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+08-Jul-2018 18:15:52.696 严重 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+ java.io.IOException: 鍙傛暟閿欒銆?
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:432)
+	at java.base/java.io.File.getCanonicalPath(File.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:610)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+08-Jul-2018 18:15:52.700 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [151] ms
+08-Jul-2018 18:16:45.431 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+08-Jul-2018 18:16:45.442 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+08-Jul-2018 18:16:45.445 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+08-Jul-2018 18:16:45.447 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+08-Jul-2018 18:16:45.449 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+08-Jul-2018 18:16:45.451 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Jul-2018 18:16:45.453 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             D:\develop\Java\jdk-10
+08-Jul-2018 18:16:45.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10+46
+08-Jul-2018 18:16:45.457 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            "Oracle Corporation"
+08-Jul-2018 18:16:45.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27
+08-Jul-2018 18:16:45.462 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27
+08-Jul-2018 18:16:45.465 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Jul-2018 18:16:45.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Jul-2018 18:16:45.470 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\logging.properties
+08-Jul-2018 18:16:45.473 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2018 18:16:45.476 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2018 18:16:45.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2018 18:16:45.479 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Jul-2018 18:16:45.482 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27
+08-Jul-2018 18:16:45.483 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27
+08-Jul-2018 18:16:45.486 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\temp
+08-Jul-2018 18:16:45.488 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+08-Jul-2018 18:16:45.489 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+08-Jul-2018 18:16:45.491 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08-Jul-2018 18:16:46.292 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+08-Jul-2018 18:16:46.333 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Jul-2018 18:16:46.454 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Jul-2018 18:16:46.461 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Jul-2018 18:16:46.464 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Jul-2018 18:16:46.466 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1533 ms
+08-Jul-2018 18:16:46.524 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Jul-2018 18:16:46.526 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+08-Jul-2018 18:16:46.542 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+08-Jul-2018 18:16:46.577 严重 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+ java.io.IOException: 鍙傛暟閿欒銆?
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:432)
+	at java.base/java.io.File.getCanonicalPath(File.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:610)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+08-Jul-2018 18:16:46.585 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [42] ms
+08-Jul-2018 18:16:46.587 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\day40]
+08-Jul-2018 18:16:47.020 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\day40] has finished in [433] ms
+08-Jul-2018 18:16:47.022 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\docs]
+08-Jul-2018 18:16:47.048 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\docs] has finished in [26] ms
+08-Jul-2018 18:16:47.052 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\examples]
+08-Jul-2018 18:16:47.405 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\examples] has finished in [353] ms
+08-Jul-2018 18:16:47.409 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\host-manager]
+08-Jul-2018 18:16:47.449 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\host-manager] has finished in [40] ms
+08-Jul-2018 18:16:47.452 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\manager]
+08-Jul-2018 18:16:47.487 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\manager] has finished in [35] ms
+08-Jul-2018 18:16:47.491 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\ROOT]
+08-Jul-2018 18:16:47.523 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\webapps\ROOT] has finished in [32] ms
+08-Jul-2018 18:16:47.528 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2018 18:16:47.537 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Jul-2018 18:16:47.541 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1074 ms
+08-Jul-2018 18:16:57.530 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+08-Jul-2018 18:16:57.532 严重 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+ java.io.IOException: 鍙傛暟閿欒銆?
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:432)
+	at java.base/java.io.File.getCanonicalPath(File.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:610)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+08-Jul-2018 18:16:57.536 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [5] ms
+08-Jul-2018 18:17:07.542 信息 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+08-Jul-2018 18:17:07.543 严重 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+ java.io.IOException: 鍙傛暟閿欒銆?
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:432)
+	at java.base/java.io.File.getCanonicalPath(File.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:610)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+08-Jul-2018 18:17:07.544 信息 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [2] ms
+08-Jul-2018 18:17:17.547 信息 [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+08-Jul-2018 18:17:17.548 严重 [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+ java.io.IOException: 鍙傛暟閿欒銆?
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:432)
+	at java.base/java.io.File.getCanonicalPath(File.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:610)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+08-Jul-2018 18:17:17.550 信息 [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [3] ms
+08-Jul-2018 18:17:27.554 信息 [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+08-Jul-2018 18:17:27.555 严重 [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+ java.io.IOException: 鍙傛暟閿欒銆?
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:432)
+	at java.base/java.io.File.getCanonicalPath(File.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:610)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+08-Jul-2018 18:17:27.556 信息 [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [2] ms
+08-Jul-2018 18:17:37.559 信息 [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+08-Jul-2018 18:17:37.560 严重 [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+ java.io.IOException: 鍙傛暟閿欒銆?
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:432)
+	at java.base/java.io.File.getCanonicalPath(File.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:610)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+08-Jul-2018 18:17:37.561 信息 [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [2] ms
+08-Jul-2018 18:17:47.564 信息 [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+08-Jul-2018 18:17:47.565 严重 [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+ java.io.IOException: 鍙傛暟閿欒銆?
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:432)
+	at java.base/java.io.File.getCanonicalPath(File.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:610)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+08-Jul-2018 18:17:47.566 信息 [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [2] ms
+08-Jul-2018 18:17:57.569 信息 [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+08-Jul-2018 18:17:57.570 严重 [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+ java.io.IOException: 鍙傛暟閿欒銆?
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:432)
+	at java.base/java.io.File.getCanonicalPath(File.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:610)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+08-Jul-2018 18:17:57.571 信息 [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [2] ms
+08-Jul-2018 18:18:07.574 信息 [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+08-Jul-2018 18:18:07.575 严重 [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+ java.io.IOException: 鍙傛暟閿欒銆?
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:432)
+	at java.base/java.io.File.getCanonicalPath(File.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:610)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+08-Jul-2018 18:18:07.576 信息 [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [2] ms
+08-Jul-2018 18:18:17.580 信息 [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+08-Jul-2018 18:18:17.582 严重 [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml]
+ java.io.IOException: 鍙傛暟閿欒銆?
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:432)
+	at java.base/java.io.File.getCanonicalPath(File.java:618)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:610)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+08-Jul-2018 18:18:17.583 信息 [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [D:\325\day25\资料与预习\tomcat资料\apache-tomcat-8.5.27\conf\Catalina\localhost\second.xml] has finished in [3] ms
+08-Jul-2018 18:18:24.596 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Jul-2018 18:18:24.596 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2018 18:18:24.722 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-Jul-2018 18:18:24.802 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Jul-2018 18:18:24.834 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2018 18:18:24.837 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-Jul-2018 18:18:24.839 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2018 18:18:24.840 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mapper namespace="cn.itheima.dao.UserDAO">
+    <select id="findAllUsers" resultType="cn.itheima.entity.UserInfo">
+        select * from user
+    </select>
+</mapper>
