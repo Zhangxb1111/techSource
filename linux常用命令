@@ -36,12 +36,12 @@ df -h     ###查看磁盘剩余空间数
 生产环境cpu占用过高分析
 	步骤：
 	1、top 查找CPU占用高的进程pid
-	2、ps -ef|grep java|grep -v grep 或 jps -l
+	2、ps -ef|grep java|grep -v grep 或 jps -l  ###得知是一个怎样的后台程序
 	3、定位到具体线程或者代码
-			ps -mp 进程pid -o THREAD,tid,time    ###找出占用CPU高的tid
+			ps -mp pid -o THREAD,tid,time    ###找出占用CPU高的tid
 	4、线程id转换为16进制格式（英文小写格式）     
-		printf "%x\n" 有问题的线程id
-	5、jstack 进程id |grep tid(16进制线程ID小写英文) -A60   ###打印出前60行
+		printf "%x\n" tid
+	5、jstack pid |grep tid(16进制线程ID小写英文) -A60   ###打印出前60行
 	
 	
 	

@@ -6,8 +6,8 @@ redis³Ö¾Ã»¯Êý¾ÝÈ¥ÖØ£ºaof³Ö¾Ã»¯·½Ê½£¬½«setÖ¸Áî·ÅÈë»º´æ»º³åÇø£¬ÁíÍâ»¹»á·ÅÈëÈ¥ÖØ»º³
 redis»º´æ´©Í¸£¨Êý¾Ý¿â¡¢»º´æ¶¼²»´æÔÚ  ²¼Â¡¹ýÂËÆ÷½â¾ö£©
 redis»º´æ»÷´©£¨Ò»ÌõÊý¾Ý£¬Êý¾Ý¿â´æÔÚ£¬»º´æ²»´æÔÚ£¬¶à²¢·¢·ÃÎÊ  ·Ö²¼Ê½Ëø½â¾ö£©
 redisÑ©±À¼°Ó¦¶Ô·½Ê½£¨redis¹Òµô»ò´óÅúÁ¿Êý¾ÝÍ¬Ê±Ê§Ð§  »º´æ¸ß¿ÉÓÃ¼¯Èº²¿Êð¿É½â¾ö¡¢ÓÅ»¯»º´æ¹ýÆÚÊ±¼ä£¨Ñ¡ÔñºÏÊÊµÄ¹ýÆÚÊ±¼ä£¬±ÜÃâ´óÁ¿keyÔÚÍ¬Ò»Ê±¿ÌÍ¬Ê±Ê§Ð§£©£©
-redis·Ö²¼Ê½»º´æ-Êý¾ÝÒ»ÖÂÐÔ£¨ÑÓÊ±Ë«É¾£ºÏÈÉ¾³ý»º´æÔÙ¸üÐÂÊý¾Ý¿âÔÙÉ¾³ý»º´æ £©
-redis·Ö²¼Ê½Ëø£¨Redission¿ò¼Ü¼ò½à´úÂëÊµÏÖ·Ö²¼Ê½Ëø£¬»òÔ­Éú´úÂë£¬ÍÆ¼öLCN»ò¿ªÔ´Fescar-seata£©
+redis·Ö²¼Ê½»º´æ-Êý¾ÝÒ»ÖÂÐÔ£¨ÑÓÊ±Ë«É¾£ºÏÈÉ¾³ý»º´æÔÙ¸üÐÂÊý¾Ý¿âÔÙÉ¾³ý»º´æ £©  Ë«Ð´Ä£Ê½  Ê§Ð§Ä£Ê½ ÕâÁ½ÖÖ¶¼»á´æÔÚÔàÊý¾Ý£¬Ç¿ÊµÊ±ÐÔ¡¢Ç¿Ò»ÖÂÐÔ¾Í²éÊý¾Ý¿â
+redis·Ö²¼Ê½Ëø£¨Redisson¿ò¼Ü¼ò½à´úÂëÊµÏÖ·Ö²¼Ê½Ëø£¬»òÔ­Éú´úÂë£¬ÍÆ¼öLCN»ò¿ªÔ´Fescar-seata£©
 redisÖ÷´Ó¸´ÖÆ¼¯Èº
 redisÉÚ±øÄ£Ê½¼¯Èº
 redis cluster¸ß¿ÉÓÃ¼¯Èº£¨Ô­Àí£º¶à¸öÖ÷´Ó¼¯Èº×é³É£¬Ã¿¸öÖ÷´Ó¼¯ÈºÍâ¶¼ÓÐÒ»¸ömasterÖ÷ºÍ¶à¸öslave´Ó£¬Êý¾Ý²åÈëÊ±£¬ÏÈ¾­¹ýcrc16 hashËã·¨¼ÆËã³öhashcodeÈ»ºó
