@@ -10,7 +10,7 @@ offset     size
      3.对齐填充
 2、对象头？对象第一个部分（所有对象公共部分64bit）
 3、java对象头组成（96bit/128bit）
-      1.Mark Word  64bit（固定）存储对象的hashcode、锁信息、分代年龄、GC标志等信息。
+      1.Mark Word(运行时元数据)  64bit（固定）存储对象的hashcode、锁信息、分代年龄、GC标志等信息。
       2.klass pointer/class Metadata Address 32bit/64bit（压缩或不压缩不固定）类型指针指向对象的类元数据，JVM通过这个指针确定该对象是哪个类的实例。
 
 
