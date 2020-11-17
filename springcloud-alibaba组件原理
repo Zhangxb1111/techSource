@@ -1,0 +1,15 @@
+nacos原理: 注册表是一双层concurrentHashMap,结构层次 namespace(group(cluster(set集合))),nacos服务提供若干http restfull接口（适配不同语言调用），
+	nacos client在启动时执行实现了applicationListener接口重写的onApplicationEvent方法把自己信息给nacos server（结束）。
+	nacos client注册实例时开启一个定时任务，然后把实例信息给到server。通过定时任务默认5秒向server发送一次心跳，
+	nacos server接受到信息进行封装 处理 封装Pair结构（key=固定字符串+service-id，value=该服务的所有实例），添加进阻塞队列。
+	nacos server启动时开启一个任务，while循环以阻塞方式从阻塞队列里面获取任务。从旧的copy一份新的，操作copy的这份。  
+		对从queue取出的实例做操作（更新等），重新把copy替换掉old。    ###copyOnWrite操作   尤里卡基于多级缓存
+ribbon原理：请求到达后端某一微服务（例如订单服务），订单服务根据远程请求地址（restTemplate（@LoadBalanced注解作用）请求的另一服务的地址），
+		ribbon拦截（LoadBalanceInterceptor拦截器）restTemplate发出的请求，
+		根据域名从本地存储的注册中心获取的服务列表负载均衡选择调用哪一个实例。
+feign原理：
+sentinel原理：
+	降级：配合feign组件，@FeignClient( fallback="")fallback参数指定降级实现类重写调用的远程接口。调用远程服务失败抛错才会执行fallback指定类重写的方法，实现降级。
+	限流：配合sentinel dashboard，底层通过滑动时间窗算法实现
+	熔断：配合降级使用
+seata原理：默认AT模式（两阶段提交流程），TC TM RM整体流程、数据库undo表记录
